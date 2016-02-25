@@ -1,0 +1,219 @@
+.clearfix:after { 
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden; 
+} 
+@font-face { 
+font-family:'Helvetica Neue Regular'; 
+src: url('../fonts/helveticaneue-thin-webfont.eot'); 
+src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), 
+url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), 
+url('../fonts/helveticaneue-thin-webfont.woff') format('woff'), 
+url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype'); 
+font-weight: normal; 
+font-style: normal; 
+} 
+
+@font-face { 
+font-family: 'Helvetica Bold'; 
+src: url('../fonts/helvetica-bold-webfont.eot'); 
+src: url('../fonts/helvetica-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+url('../fonts/helvetica-bold-webfont.woff2') format('woff2'), 
+url('../fonts/helvetica-bold-webfont.woff') format('woff'), 
+url('../fonts/helvetica-bold-webfont.ttf') format('truetype'); 
+font-weight: normal; 
+font-style: normal; 
+} 
+.wrapper{ 
+width: 100%; 
+
+} 
+.header{ 
+width: 100%; 
+    height: 36px;
+background-color: #074f8d; 
+} 
+.right{
+    width: 700px;
+    height: 36px;
+    float: right;
+}
+.menu{ 
+width: 100%; 
+height: 36px;
+} 
+li{ 
+display: inline-block; 
+height: 36px; 
+line-height: 36px; 
+padding-left: 0.7%;
+padding-right: 0.7%;
+} 
+a { 
+color:#499bd5; 
+text-decoration: none; 
+} 
+
+
+.menu li:hover { 
+background-color:#4eabda; 
+} 
+
+.menu a:hover li{ 
+color:white; 
+font-weight: bold; 
+} 
+
+img{ 
+padding-left:5px; 
+vertical-align: middle; 
+} 
+
+.first{ 
+color: white; 
+line-height: 36px; 
+font-family: 'Helvetica Bold',Tahoma, sans-serif; 
+border-left: 1px solid #499bd5; 
+padding-left: 1px; 
+} 
+span{ 
+color: white; 
+text-decoration: underline; 
+} 
+
+
+span{ 
+text-decoration: underline; 
+color: white; 
+} 
+.second{ 
+margin-left: 1%; 
+
+} 
+
+.first:hover, 
+.second:hover { 
+background: #4faedb; 
+} 
+.conteiner{
+
+   
+    width: 565px;
+    height: 580px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -282.5px;
+    margin-top: -290px;
+    
+
+}
+.content{ 
+width: 100%; 
+height: 1030px; 
+background-image: url(../img/fon.png); 
+background-repeat:no-repeat; 
+background-size: 100%; 
+position: relative;
+} 
+.head{ 
+width: 100%; 
+background-color: rgba(0, 0, 0, 0.6); 
+    vertical-align: middle;
+} 
+
+.head p{ 
+    padding-top: 18px;
+    padding-bottom: 18px;
+ color: white; 
+text-align: center; 
+font-size: 24px; 
+font-weight: bold; 
+} 
+.reg_form { 
+width: 100%; 
+background-color: rgba(0, 0, 0, 0.6); 
+color: white; 
+} 
+.facebook { 
+width:277px; 
+height: 60px; 
+margin-left: 140px; 
+margin-top: 1px; 
+border-radius: 3px; 
+
+/* background: #3e5694; /* Old browsers */ 
+} 
+.facebook img{
+    margin-top: 20px; 
+}
+.OU{
+    position: relative;
+}
+.OU img { 
+margin-left: 140px; 
+margin-top: 40px; 
+margin-bottom: 40px; 
+} 
+
+.OU p { 
+position: absolute; 
+z-index: 2; 
+left: 48.2%;
+top: 40%; 
+} 
+
+/*input text section*/ 
+.field { 
+background-color: #111010; 
+width:262px; 
+height: 35px; 
+margin-left: 140px; 
+margin-bottom: 10px; 
+padding-left: 15px; 
+border:none; 
+border-bottom: 2px solid #484948; 
+font-family:'Helvetica Neue Regular',Tahoma, sans-serif; 
+font-size: 14px; 
+} 
+
+.field:focus { 
+background-color: #1b5288; 
+-webkit-box-shadow: 0px 0px 15px 0px rgba(217,242,247,1); 
+-moz-box-shadow: 0px 0px 15px 0px rgba(217,242,247,1); 
+box-shadow: 0px 0px 15px 0px rgba(217,242,247,1); 
+} 
+
+/*submit button*/ 
+input[type=submit] { 
+margin-left: 205px; 
+margin-top: 25px; 
+margin-bottom: 25px; 
+height: 35px; 
+width: 150px; 
+background: #67c6e6; /* Old browsers */ 
+background: -moz-linear-gradient(top, #67c6e6 0%, #2e7ac4 100%); /* FF3.6-15 */ 
+background: -webkit-linear-gradient(top, #67c6e6 0%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */ 
+background: linear-gradient(to bottom, #67c6e6 0%,#2e7ac4 100%); /* W3C, IE10+,
+FF16+, Chrome26+, Opera12+, Safari7+ */ 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67c6e6', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */ 
+border: none; 
+border-radius: 3px; 
+color: white; 
+font-family: 'Helvetica Neue Regular'; 
+} 
+
+input[type=checkbox] { 
+margin-left: 140px; 
+font-size: 14px; 
+} 
+
+
+.private_policy { 
+text-align: center; 
+margin-bottom: 2%;
+font-size: 11px; 
+line-height: 15px; 
+}

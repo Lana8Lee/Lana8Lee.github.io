@@ -1,0 +1,46 @@
+body {
+      background-color: grey;
+}
+    table {
+       border-collapse: collapse;
+       border: 1px solid black;
+       height:450px;
+       width:400px;
+       margin: 200px auto;
+}
+     td {
+       border:5px solid black;
+       height:50px;
+       width:50px;
+}
+
+#cell_2{
+border-top: 1px solid black;
+border-left: 1px solid black;
+}
+#cell_3 {
+    border-top: 1px solid black;
+}
+#cell_6 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+ #cell_8, #cell_22 {
+     border-left: 1px solid black;
+ }
+ #cell_43 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+ }
+#cell_13, #cell_67,#cell_41,#cell_48 {
+    border-right: 1px solid black;
+}
+
+#cell_60 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#cell_51 {
+        border-bottom: 1px solid black;
+}

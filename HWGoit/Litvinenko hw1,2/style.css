@@ -1,0 +1,30 @@
+body{
+    border: 2px solid #c4c4c4;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.row{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.line{
+
+    border-bottom: 1px solid #000;
+}
+.cell{
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+img{
+    border-radius: 8%;
+}
+p{
+    margin-left: 3%;
+}
+a{
+  margin-left: 3%;  
+}

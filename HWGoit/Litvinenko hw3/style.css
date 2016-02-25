@@ -1,0 +1,150 @@
+.clearfix:after { 
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden; 
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+}
+.row{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+ul{
+    list-style-type: none;
+   }
+.head{
+  background:#4b4a4a;
+/*  background: linear-gradient(to top, #4a4949 10%, #7d848b 56%, #4a4949 100%);  */
+}
+.up a{
+text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+color: white;
+font-family: OpenSans;
+font-size: 15px;
+font-weight: 400;
+text-decoration: none;
+}
+.up{
+    display: inline-block;
+    width: 117px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    padding-left: 2%;
+ 
+}
+.header{
+    margin-top: 4%;
+}
+.up:hover {
+
+    background: #333;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    box-sizing: border-box;
+}
+.side{
+  width: 260px;
+    float: left;
+    
+}
+.bar{
+    display: block;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+/*    color: #454242;*/
+    border-bottom: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+}
+.bar:first-child{
+    border-top: 1px solid #c8c8c8;
+}
+.bar a{
+ font-family: OpenSans;
+font-size: 13px;
+font-weight: 400;
+text-decoration: none;
+color: #656363; 
+}
+.bar:hover a{
+    font-weight: bold;
+    color: #2c2c2c;
+    margin-left: 15%;
+}
+.content{
+    width: 700px;
+    float: left;
+    position: relative;
+}
+.pic{
+    width: 650px;
+    height: 350px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    
+    
+}
+.text{
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-top: 50%;
+    color: #2c2c2c;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer{
+    margin-top: 2%;
+    width: 100%;
+    position: relative;
+    
+}
+.down{
+ background-color:#e1e1e1;   
+}
+.foot{
+    display: inline-block;
+    width: 117px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 2%;
+ 
+}
+.foot a{
+color: #2c2c2c;
+font-family: OpenSans;
+font-size: 13px;
+font-weight: 400;
+text-decoration: none;
+}
+.foot:hover {
+    text-decoration: underline;
+}
+.rights{
+    width: 170px;
+    float: right;
+    position: absolute;
+    left: 82%;
+    bottom: 11%;
+    
+}
+span{
+color: #2c2c2c;
+font-family: OpenSans;
+font-size: 13px;
+font-weight: 400;
+}
