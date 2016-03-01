@@ -61,7 +61,7 @@ text-decoration: none;
 background-color:#4eabda; 
 } 
 
-.menu a:hover li{ 
+.menu li:hover a{ 
 color:white; 
 font-weight: bold; 
 } 
@@ -211,9 +211,9 @@ font-size: 14px;
 } 
 
 
-.private_policy { 
-text-align: center; 
-margin-bottom: 2%;
-font-size: 11px; 
-line-height: 15px; 
+.private_policy {
+    height: 45px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
 }
