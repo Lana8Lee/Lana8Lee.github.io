@@ -10,16 +10,16 @@
     height: 1060px;
     padding-top: 0px;
     padding-bottom: 0px;
+    background-color: aquamarine;
     background-image: url(../img/background.jpg);
     background-position: 0px;
     background-size: cover;
     text-align: center;
-    position: relative;
-}
+    }
 .container {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     max-width: 960px;
     height: 95%;
     overflow: hidden;
@@ -183,7 +183,4 @@ p {
 }
 .copy {
     color: white;
-    position: absolute;
-    left: 40%;
-    bottom: 1.5%;
-}
+   }
