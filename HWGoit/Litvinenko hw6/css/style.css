@@ -1,0 +1,751 @@
+*{margin: 0; 
+padding: 0;
+}
+.wrapper { /*контейнер для содержимого странички*/
+  position: relative;
+  max-width: 907px;
+  margin: 0 auto;
+  font-family: Arial,sans-serif;
+}
+
+.clearfix:after {
+  content:'';
+  clear: both;
+  display: block;
+  visibility:hidden;
+}
+
+/*---------START OF HEADER-----------*/
+header {
+    margin-top: 17px;
+    margin-bottom: 11px;
+}
+
+.contacts img{
+  float: left;
+  margin-right: 4px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.contacts p {
+  margin-right: 14px;
+  float: left;
+  color: #5e696d;
+  font-size: 18px;
+  margin-top: 6px;
+  white-space: pre;
+}
+
+.avtorization { /*main box for avtorization line*/
+    padding-top: 4px;
+    width: 487px;
+    height: 23px;
+    float: left;
+   background: #1f6787; /* Old browsers */
+   background: -moz-linear-gradient(top,  #1f6787 0%, #0d3458 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #1f6787 0%,#0d3458 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #1f6787 0%,#0d3458 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0d3458',GradientType=0 ); /* IE6-9 */
+   border-radius: 5px;
+   -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.avtorization form img {
+  float: left;
+  margin-top: 2px;
+  margin: 0 5px;
+}
+
+.avtorization form input{
+  float:left;
+  width: 112px;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.avtorization a{
+  display: inline-block;
+  float: left;
+  padding-right: 4px;
+  margin-top: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.avtorization a:nth-last-child(2) {
+  display: inline-block;
+  border-left: 1px solid white;
+  padding-left: 4px;
+}
+
+.avtorization a:last-child{
+  display: inline-block;
+  padding-left: 20px;
+  color: #bfbfbf;
+}
+
+.nav {
+  float: left;
+  border: 1px solid #c0c7ca;
+  border-radius: 10px;
+  margin-left: 18px;
+  margin-top: 4px;
+  padding-left: 8px;
+  padding-right: 12px;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+ }
+
+   .nav img {
+     margin-right: 3px;
+     margin-bottom: 2px;
+
+}
+/*------------------END OF HEADER------------------*/
+
+
+
+/*------------------START OF MENU------------------*/
+.main_photo img{
+  clear: both;
+  margin-top: 10px;
+}
+
+.menu {
+   height: 34px;
+    line-height: 34px;
+/*   padding: 10px 0 10px 0;*/
+   margin-top: 4px;
+   border-radius: 5px;
+   background: #576068; /* Old browsers */
+   background: -moz-linear-gradient(top,  #576068 0%, #000000 35%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #576068 0%,#000000 35%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #576068 0%,#000000 35%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#576068', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+   -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.menu ul {
+   margin-left: 145px;
+   vertical-align: middle; 
+}
+
+.main_part li{
+   float: left;
+   margin-right: 25px;
+}
+
+.menu ul li a{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 4px;
+   color: #b1bcc0;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.menu .main_part a:hover {
+  padding: 0 10px;
+
+  border-radius: 10px;
+  background: #1f6585; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1f6585 0%, #0c3357 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #1f6585 0%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #1f6585 0%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6585', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */
+}
+
+.second_part li{
+    float: right;
+    margin-right: 14px;
+}
+.menu li:nth-last-child(2) img{
+   text-align: center;
+   margin-bottom: -8px;
+/*   margin-left: 52px;*/
+}
+
+.menu li:nth-last-child(2),.menu li:last-child {
+   color: #b1bcc0;
+   font-size: 11px;
+}
+
+
+ .menu li span {
+    color: #0d5689;
+    font-weight: bold;
+    font-size: 12px;
+ }
+/*-----------------------END OF MENU---------------------*/
+
+
+
+
+
+/*-----------------START OF SEARCH FORMS------------------*/
+.search_forms {
+   max-width: 907px;
+   margin-top: 10px;
+}
+
+/*-----start of first form - ATO-SEARCH------*/
+.auto_search {
+   float: left;
+/*
+   padding-left: 17px;
+   padding-right: 13px;
+*/
+   width:411px;
+   height: 134px;
+   border: 2px solid #b6b6b7;
+   border-radius: 18px;
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+.auto_search_header{
+    margin-left: 19px;
+    height: 19px;
+}
+
+.auto_search_header p{
+   display: inline;
+   font-size: 10px;
+    
+   color: #154467;
+   font-weight: bold;
+}
+
+.auto_search_header span {
+   font-size: 12px;
+   margin-left: 74px;
+   margin-right:  93px;
+}
+
+.auto_disk_search {
+    float: left;
+    margin-left: 19px;
+}
+
+.car_brand, .car_year {
+    margin-bottom: 1px;
+}
+
+ .car_brand p, .car_model p, .car_complectation p, .car_year p{ /*text align*/
+    display: inline-block;
+    color: black;
+    font-size: 10px;
+    width: 75px;
+}
+
+ .car_brand span, .car_model span, .car_year span {
+    color: #77858b;
+}
+
+ .car_brand select, .car_model select, .car_complectation select{/*form align*/
+    width: 98px;
+    height: 17px;
+    margin-top: 3px;
+}
+
+.car_year select{
+    width: 56px;
+    height: 17px;
+}
+
+.auto_bus_search {
+    float: left;
+    margin-left: 26px;
+}
+.searching a {
+    display: inline-block;
+    color: #154467;
+    font-style: italic;
+    font-size: 14px;
+    text-transform: lowercase;
+    float: right;
+    margin-right: 20px;
+}
+/*-----end of first form - ATO-SEARCH------*/
+
+/*-----start of second form - BUS-SEARCH------*/
+.bus_search {
+    position: relative;
+    float: left;
+    
+    margin-left: 14px;
+   
+    width: 191px;
+    height: 133px;
+    border: 2px solid #b6b6b7;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+.bus_search_header{
+    margin-left: 15px;
+    padding-top: 4px;
+}
+ .bus_search_header p{
+    margin-bottom: 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 11px;
+    color: #114165;
+}
+.bus_size{
+    margin-left: 15px;
+}
+ .bus_size p{
+    display: inline-block;
+    font-size: 10px;
+    color: black;
+}
+
+.bus_size select {
+   width: 49px;
+   height: 17px;
+   margin-left: 2px;
+}
+
+.bus_R {
+   margin-left: 51px;
+   margin-top: 7px;
+}
+
+.bus_R p{
+   display: inline-block;
+   text-align: right;
+   font-size: 10px;
+   color: black;
+}
+
+.bus_R select {
+   width: 44px;
+   height: 17px;
+}
+.bus_season{
+    margin-left: 15px;
+}
+.bus_season_header p {
+   display: inline-block;
+   font-size: 10px;
+   color: black;
+   margin-left: 2px;
+}
+
+.bus_season_checkbox {
+   position: absolute;
+   top: 68px;
+   left:32px;
+}
+
+.bus_season_checkbox_1 {
+   display: inline-block;
+   vertical-align: middle;
+   
+}
+
+.bus_season_checkbox label {
+   display: inline-block;
+   font-size: 10px;
+   color: black;
+   margin-right: 70px;
+   vertical-align: super;
+   line-height: 0;
+}
+
+.searching_2 {
+   position: absolute;
+   right: 18px;
+   bottom: 8px;
+}
+
+.searching_2 a{
+   color: #154467;
+   font-size: 14px;
+   text-transform: lowercase;
+   text-align: right;
+   font-style: italic;
+}
+/*-----end of second form - BUS-SEARCH------*/
+
+
+/*-----start of third form - DISKS-SEARCH------*/
+.disks_search {
+   position: relative;
+   float: left;
+   margin-left: 10px;
+   width:264px;
+   height: 133px;
+   border: 2px solid #b6b6b7;
+   border-radius: 15px;
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+ .searching3 a{
+      display: inline-block;
+    
+    color: #154467;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-style: italic;
+    margin-right: 18px;
+    position: absolute;
+     bottom: 6px;
+    left: 198px;
+}
+
+
+.disks_search_header{
+    margin-left: 10px;
+    padding-top: 4px;
+}
+.disks_search_header p{
+   margin-bottom: 5px;
+   font-size: 12px;
+   color: #114165;
+   font-weight: bold;
+}
+.ml{
+    margin-left: 16px;
+}
+.disks_diametr p, .disks_amount p, .disks_DCO p,.disks_ET p {
+   display: inline-block;
+   color: black;
+   font-size: 10px;
+   margin-bottom: 2px;
+   width: 90px;
+   vertical-align: middle;
+}
+
+.disks_diametr span, .disks_amount span{
+    color: #77858b;
+    font-size: 9px;
+}
+
+ .disks_DCO span,.disks_ET span {
+    color: #77858b;
+    font-size: 8px;
+ }
+
+
+.disks_search select {
+   width: 56px;
+   height: 17px;
+   margin-bottom: 4px;
+   vertical-align: middle;
+}
+
+.disks_search_right_side {
+   position: absolute;
+   left: 174px;
+   top: 1px;
+   padding-left: 10px;
+   border-left: 1px solid #bdc6ca;
+   margin-top: 5px;
+}
+
+.disks_search_right_side select {
+  margin-bottom: 4px;
+}
+/*-----end of third form - DISKS-SEARCH------*/
+/*------------------------END OF SEARCH FORMS--------------------------------------*/
+
+
+
+
+
+
+/*------------------------START OF SIDEBAR--------------------------------------*/
+.conteiner {
+   display: table-cell;
+    width: 100%;
+}
+
+.sidebar {
+    width: 183px;
+   float: left;
+   margin-top: 19px;
+}
+
+.catalog img{
+ 
+    border: 0;
+    display: block;
+    float: left;
+    margin: 2px 1px 0 1px;
+
+}
+
+.catalog li {
+/*   padding: 3px;*/
+   border: 1px solid #114165;
+   width: 183px;
+   height: 27px;
+   
+   margin-bottom: 12px;
+   border-radius: 15px;
+   vertical-align: middle;
+   
+   -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+.catalog li p{
+  font-size: 13px; 
+    color: #114165;
+    margin-top: 6px;
+}
+.products img{
+    border: 0;
+    display: block;
+    float: left;
+    margin: 2px 1px 0 3px;
+
+}
+
+.products{
+  
+width: 150px;
+height: 28px;
+
+border: 1px solid #79878d;
+   border-radius: 15px;
+   
+}
+.products p{
+    font-size: 13px;
+     color: #114165;
+    margin-top: 6px;
+}
+
+.product li {
+   margin-left: 50px;
+   list-style: circle;
+   
+   line-height: 25px;
+}
+
+.product li a{
+   text-decoration: none;
+   color: #114165;
+    line-height: 15px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product li:hover a {
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline;
+    color: #0c3256;
+    font-family: Arial;
+
+font-size: 14px;
+font-weight: 700;
+
+}
+/*------------------------END OF SIDEBAR--------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------START OF CONTENT--------------------------------------*/
+.content {
+   width: 526px;
+   float: left;
+   margin-top: 15px;
+   margin-left: 7px;
+   margin-right: 7px;
+   padding-top: 16px;
+   background: #c9cfd1; /* Old browsers */
+   background: -moz-linear-gradient(top,  #e4e7e8 0%, #94a7b0 70%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #e4e7e8 0%, #94a7b0 70%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #e4e7e8 0%, #94a7b0 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9cfd1', endColorstr='#234b5d',GradientType=0 ); /* IE6-9 */
+}
+
+.content .row {
+   display: inline-block;
+   margin-left: 30px;
+   margin-bottom: 28px;
+   font-size: 13px;
+   text-align: center;
+   color: #1f2528;
+}
+
+.content .row:first-child {
+   display: inline-block;
+   margin-left: 26px;
+}
+
+.row .weel{
+   width: 135px;
+   height: 127px;
+   margin-bottom: 3px;
+   margin-right: -3px;
+   border: 1px solid #cfd4d6;
+   background-color: white;
+   border-radius:  5px;
+}
+
+
+ .content .row span {
+    color: #114165;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ .content .row .color {
+    color: #206988;
+    font-size: 15px;
+}
+/*------------------------END OF CONTENT--------------------------------------*/
+
+
+
+
+
+
+/*------------------------START OF ASIDE--------------------------------------*/
+.aside {
+    width: 183px;
+   float: right;
+   margin-top: 19px;
+}
+
+.brends img{
+   vertical-align: middle;
+   padding-left: 3px;
+   padding-right: 3px;
+
+}
+
+.brends  p{
+   padding: 3px;
+   border: 1px solid #114165;
+   width: 175px;
+   height: 19px;
+   font-size: 13px;
+   margin-bottom: 14px;
+   margin-top: -2px;
+   margin-left: 2px;
+   border-radius: 15px;
+   vertical-align: middle;
+   color: #114165;
+   -webkit-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   -moz-box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.products-2 img{
+   vertical-align: middle;
+   padding-left: 3px;
+   padding-right: 3px;
+   padding-bottom: 3px;
+}
+
+.mtop{
+margin-top: 14px;
+}
+.mt10{
+margin-top: 10px;
+}
+input[type="checkbox"] {
+   display: inline-block;
+   margin-left: 27px;
+  
+}
+
+ label{
+   color: #114165;
+   font-size: 13px;
+   margin-left: 5px;
+}
+
+.submit {
+   width: 80px;
+   height: 24px;
+   border: none;
+   border-radius: 15px;
+   background:linear-gradient(to bottom, #206988 0%, #0c3256 59%);
+   color: white;
+   font-size: 11px;
+   text-align: center;
+   margin-top: 19px;
+   margin-left:27px;
+}
+/*----------------------------END OF ASIDE--------------------------------------*/
+
+
+
+
+
+/*------------------------START OF BRAND-LOGO--------------------------------------*/
+.brands_logo {
+   padding-left: 114px;
+}
+
+.brands_logo img{
+   margin: 43px 11px 32px 0;
+   vertical-align: top;
+}
+/*------------------------END OF BRANDS-LOGO--------------------------------------*/
+
+
+
+
+
+
+/*------------------------START OF FOOTER--------------------------------------*/
+footer {
+    height: 100px;
+    background-color: #213a4d;
+    margin-top: -9px;
+}
+
+.footer {
+    margin-left: 296px;
+}
+
+footer ul li {
+   float: left;
+   margin-top: 9px;
+   margin-right: 5px;
+   padding-right:  11px;
+   padding-left:  11px;
+   border-left: 1px solid #bec6c9;
+}
+
+footer ul li:first-child {
+   border: none;
+}
+
+footer ul li a {
+   color: #bec6c9;
+   font-size: 12px;
+   text-decoration: none;
+   text-align: center;
+}
+
+footer ul li:hover a{
+   color: #52abcb;
+}
+
+footer p {
+  clear: both;
+  text-align: center;
+  color: #7f4740;
+  font-size: 10px;
+  line-height: 39px;
+}
+/*------------------------END OF FOOTER--------------------------------------*/
