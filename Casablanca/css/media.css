@@ -1,0 +1,132 @@
+@media only screen and (max-width: 800px) {
+    .row7{
+        height: auto;
+        
+        box-sizing: border-box;
+    }
+    .cell8{
+      width: 33%;  
+    }
+    .cell9{
+    width: 33%;    
+    }
+    .cell10{
+        width: 33%; 
+    }
+    .cell11{
+        width: 33%;
+    }
+    .cell25{
+    bottom: 43%;
+    left: 35%;    
+    }
+    h6{
+        font-size: 10px;
+    }
+    .text4{
+     font-size: 10px;   
+    }
+}
+@media only screen and (min-width: 1024px){
+.row7{
+    height: auto;
+    margin-bottom: 8%;
+    }
+ .cell8{
+        height: inherit;
+    } 
+    .cell9{
+        height: inherit;
+    } 
+    .cell10{
+        height: inherit;
+    } 
+    .cell11{
+        height: 100%;
+    } 
+  .cell25{
+   bottom: 47%;
+   left: 21%;
+   }  
+    .row9{
+        height: 420px;
+    }
+}
+@media only screen and (min-width: 1400px){
+ .row7{
+    height: auto;
+    margin-bottom: 5%;
+    }
+ 
+  .cell25{
+   bottom: 41%;
+    left: 19%;
+   }  
+    .row9{
+        height: 420px;
+    }   
+}
+@media only screen and (max-width : 768px) {
+   .row7{
+    height: auto;
+    margin-bottom: 5%;
+    }
+    .cell16{
+        margin: 0;
+        margin-left: 15%;
+    }
+ 
+    .pure1{
+        font-size: 15px;
+    }
+    .cell7{
+        font-size: 15px;
+    }
+    .row9{
+        height: 1200px;
+         margin-top: 21%;
+    }
+    .cell19{
+        width: 50%;
+        height: 400px;
+    }
+    .cell191{
+        width: 50%;
+         height: 400px;
+    }
+    .cell192{
+        width: 50%;
+         height: 400px;
+    }
+    .row6{
+        height: 150px;
+    }
+    .mobile{
+     font-size: 15px;   
+    }
+    .google{
+     font-size: 15px;    
+    }
+}
+@media only screen and (max-width : 480px) {
+    .row7{
+        height: auto;
+        
+        box-sizing: border-box;
+    }
+    .cell8{
+      width: 100%;  
+    }
+    .cell9{
+    width: 100%;    
+    }
+    .cell10{
+        width: 100%; 
+    }
+    .cell11{
+        width: 100%;
+    }
+    .cell16{
+        margin: 18%;
+    }
+}
