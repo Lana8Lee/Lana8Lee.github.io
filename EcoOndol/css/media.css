@@ -142,7 +142,7 @@
         cursor: pointer;
     }
     .col-3 {
-        width: 47%;
+        width: 40%;
     }
     .main-menu li a {
         color: #777b83;
@@ -209,9 +209,6 @@
     }
     .section9 figure .kolo span {
         font-size: 14px;
-    }
-    .feedback .col-2 {
-    padding-left: 1%;
     }
     .pull-4 {
         margin: 0;
@@ -297,6 +294,9 @@
     }
     .block-form {
         width: 99%;
+    }
+    .resize{
+        width: 85%;
     }
 }
 
