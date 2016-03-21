@@ -210,6 +210,9 @@
     .section9 figure .kolo span {
         font-size: 14px;
     }
+    .feedback .col-2 {
+    padding-left: 1%;
+    }
     .pull-4 {
         margin: 0;
     }
