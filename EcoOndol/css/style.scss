@@ -1,0 +1,1361 @@
+@font-face {
+    font-family: "MuseoSansCyrl-100";
+    src: url("../fonts/MuseoSansCyrl_100-webfont.eot?") format("eot"), url("../fonts/MuseoSansCyrl_100-webfont.woff") format("woff"), url("../fonts/MuseoSansCyrl_100-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MuseoSansCyrl-300";
+    src: url("../fonts/MuseoSansCyrl_300-webfont.eot?") format("eot"),  url("../fonts/MuseoSansCyrl_300-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MuseoSansCyrl-500";
+    src: url("../fonts/MuseoSansCyrl_500-webfont.eot?") format("eot"), url("../fonts/MuseoSansCyrl_500-webfont.woff") format("woff"), url("../fonts/MuseoSansCyrl_500-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MuseoSansCyrl-700";
+    src: url("../fonts/MuseoSansCyrl_700-webfont.eot?") format("eot"), url("../fonts/MuseoSansCyrl_700-webfont.woff") format("woff"), url("../fonts/MuseoSansCyrl_700-webfont.ttf") format("truetype");
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid;
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid;
+}
+input {
+    outline:none;
+}
+.wrapper {
+    width: 100%;
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.db{
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+
+.col-1 {
+    width: 7.14%;
+    float: left;
+}
+
+.col-2 {
+    width: 14.28%;
+    float: left;
+}
+
+.col-3 {
+    width: 21.42%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-4 {
+    width: 28.56%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-5 {
+    width: 35.7%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-6 {
+    width: 42.84%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-7 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-8 {
+    width: 57.12%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-9 {
+    width: 64.26%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-10 {
+    width: 71.4%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-11 {
+    width: 78.54%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-12 {
+    width: 85.6%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-13 {
+    width: 92.82%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-14 {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.color-red {
+    color: red;
+}
+
+@mixin up-head {
+    .h3 {
+        font-family: "MuseoSansCyrl-500";
+        color: #000000;
+        font-size: 41px;
+        line-height: 53px;
+        text-align: center;
+        margin: 0;
+        padding-top: 63px;
+    }
+    .system {
+        font-family: "MuseoSansCyrl-500";
+        color: #000;
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        padding: 37px 0;
+        margin: 0;
+    }
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-menu li {
+    float: left;
+    margin-right: 15px;
+}
+
+.main-menu li:last-child {
+    margin: 0;
+}
+
+.main-menu li a {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 14px;
+    line-height: 155px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.namber-phone {
+    display: block;
+    font-family: "MuseoSansCyrl-700";
+    color: #1da2d6;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 21px;
+    float: left;
+    text-decoration: none;
+}
+
+.fa-mobile {
+    font-size: 38px;
+    float: left;
+    margin-top: 28px;
+    margin-right: 11px;
+    color: #777b83;
+}
+
+.orange-btn {
+    padding-top: 11px;
+    font-family: "MuseoSansCyrl-700";
+    font-size: 12px;
+    display: block;
+    border-radius: 25px;
+    background-color: #ef6622;
+    width: 243px;
+    height: 52px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px #B4A8A8;
+}
+
+.bkg-row-section1 {
+    height: 798px;
+    background-image: url(../img/section-fon.png);
+    background-position: center;
+}
+
+.slogan {
+    font-family: "MuseoSansCyrl-500";
+    font-size: 12px;
+}
+
+.section1 {
+    text-align: center;
+    padding-top: 69px;
+    box-sizing: border-box;
+}
+
+.section1 .span {
+    font-family: "MuseoSansCyrl-500";
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    background: #1da2d6;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.section1 .ather {
+    display: block;
+    margin: 0 auto;
+    font-family: "MuseoSansCyrl-700";
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #ef6622;
+    height: 37px;
+    width: 455px;
+    margin-top: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #1da2d6;
+    border-style: solid;
+    width: 93px;
+    height: 93px;
+    float: left;
+}
+
+.elem1 {
+    position: absolute;
+    float: left;
+    top: 51px;
+    left: 29%;
+}
+
+.elem2 {
+    position: absolute;
+    top: 173px;
+    left: 33%;
+}
+
+.elem3 {
+    position: absolute;
+    top: 293px;
+    left: 38%;
+}
+
+.elem4 {
+    position: absolute;
+    top: 104px;
+    left: 63%;
+}
+
+.elem5 {
+    position: absolute;
+    top: 220px;
+    left: 68%;
+}
+
+.ico1 {
+    background-image: url(../img/icon1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ico2 {
+    background-image: url(../img/ico2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ico3 {
+    background-image: url(../img/ico3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ico4 {
+    background-image: url(../img/ico4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ico5 {
+    background-image: url(../img/ico5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 14px;
+    line-height: 20.01px;
+    text-align: left;
+    float: left;
+    max-width: 259px;
+    margin-top: 17px;
+    margin-left: 11px;
+}
+
+.pr {
+    position: relative;
+}
+
+.block-form {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    background: #333366;
+    background-image: url(../img/bkg-b.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -40px;
+    box-shadow: 3px 7px 52px #000;
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.block-form p {
+    font-family: "MuseoSansCyrl-500";
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.block-form input {
+    font-family: "MuseoSansCyrl-300";
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    height: 52px;
+    box-sizing: border-box;
+    margin-right: 86px;
+    width: 263px;
+    box-shadow: 0px 5px 16px #000;
+}
+
+@mixin input-form {
+    input {
+        font-family: "MuseoSansCyrl-300";
+        color: #000000;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+        text-align: left;
+        border-radius: 25px;
+        background-color: #ffffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        outline: none;
+        border: none;
+        height: 52px;
+        box-sizing: border-box;
+        margin-right: 86px;
+        width: 263px;
+        box-shadow: 0px 5px 16px #000;
+    }
+    input[type="button"] {
+        border-radius: 25px;
+        background-color: #1da2d6;
+        width: 233px;
+        height: 52px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@mixin input-span {
+    span {
+        font-family: "MuseoSansCyrl-300";
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 20.01px;
+        text-align: center;
+        float: right;
+        margin-right: 89px;
+        position: relative;
+        margin-top: 12px;
+    }
+    span:before {
+        content: " ";
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        background: url(../img/info.png);
+        position: absolute;
+        left: -21px;
+    }
+}
+
+.block-form input[type="button"] {
+    border-radius: 25px;
+    background-color: #1da2d6;
+    width: 233px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.block-form span {
+    font-family: "MuseoSansCyrl-300";
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20.01px;
+    text-align: center;
+    float: right;
+    margin-right: 89px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.block-form span:before {
+    content: " ";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background: url(../img/info.png);
+    position: absolute;
+    left: -21px;
+}
+
+.h1 {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 35px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.tac {
+    text-align: center;
+}
+
+.elem186 {
+  width: 22%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.elem285 {
+       width: 22%;
+    float: left;
+    margin-right: 2%;
+}
+
+.elem208 {
+        width: 22%;
+    float: left;
+    margin-right: 2%;
+}
+
+.elem288 {
+    width: 22%;
+    float: left;
+}
+
+.number span {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 48px;
+    line-height: 28px;
+    text-align: center;
+    border-bottom: 3px solid #ff6633;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.h2 {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 21px;
+    line-height: 7px;
+    text-align: center;
+}
+
+.section4 {
+    background: url(../img/fon-lamp.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding-bottom: 8%;
+}
+
+.block-center {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    padding: 50px 33px 0px 33px;
+    box-sizing: border-box;
+}
+
+.s4-h1 {
+    font-family: "MuseoSansCyrl-700";
+    color: #000000;
+    font-size: 30px;
+    line-height: 22px;
+    text-align: left;
+    border-bottom: 2px solid #1da2d6;
+    display: inline;
+    padding-bottom: 4px;
+}
+
+.s4-p {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.block-left-img {
+    float: left;
+    width: 39%;
+    margin-right: 1%;
+}
+
+.block-right-text {
+    float: left;
+    width: 56%;
+    margin-left: 4%;
+    margin-top: 50px;
+}
+
+.resp {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 5px 10px #B0A7A7;
+    border-radius: 10px;
+}
+
+.line {
+    border-bottom: 1px solid #c5c5c5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.view {
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 8px #AEA6A6;
+    display: inline-block;
+    float: left;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.view-imgs {
+    float: left;
+    width: 20%;
+    margin-left:3%;
+}
+
+.view-imgs2 {
+    margin-top: 25px;
+}
+
+.view-imgs2 img {
+    width: 30%;
+    margin-right: 2%;
+    box-shadow: 0px 2px 9px #B8B0B0;
+    border-radius: 11px;
+}
+
+.view-imgs img {
+    margin-bottom: 41px;
+}
+
+.viev-text {
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.viev-text ul li {
+    color: orangered;
+    margin-bottom: 17px;
+}
+
+.viev-text ul li span {
+    color: black;
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.viev-text p {
+    font-family: "MuseoSansCyrl-700";
+    color: #000000;
+    font-size: 30px;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 21px;
+}
+
+.btn-big {
+    display: block;
+    border-radius: 25px;
+    background-color: #1da2d6;
+    width: 433px;
+    height: 52px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 52px;
+    box-shadow: 2px 3px 10px #000;
+}
+
+a[href="#top"] {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "MuseoSansCyrl-100";
+  font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #1da2d6;
+    border: 1px solid #1da2d6;
+    text-decoration: none;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 7%;
+    right: 1%;
+}
+
+
+/***********************************************/
+
+
+/*
+ Cloud Zoom CSS. (c)2012-2015 Star Plugins.
+*/
+
+
+/* CSS for lens */
+
+.cloudzoom-lens {
+    border: 5px solid #888;
+    width: 100px;
+    height: 100px;
+    box-shadow: -0px -0px 10px rgba(0, 0, 0, 0.40);
+    cursor: crosshair;
+    z-index: 9999;
+}
+
+
+/* CSS for zoom window. */
+
+.cloudzoom-zoom {
+    border: 1px solid #888;
+    width: 600px;
+    height: 200px;
+    box-shadow: -0px -0px 10px rgba(0, 0, 0, 0.40);
+    z-index: 9999;
+}
+
+
+/* CSS for zoom window in 'inside' mode. */
+
+.cloudzoom-zoom-inside {
+    border: none;
+    box-shadow: none;
+    z-index: 9999;
+}
+
+
+/* CSS for captions */
+
+.cloudzoom-caption {
+    display: none;
+    /* CSS captions should be hidden initially */
+    text-align: left;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+
+/* A blank image */
+
+.cloudzoom-blank {
+    background-image: url(blank.png);
+}
+
+
+/* The animated ajax loading image */
+
+.cloudzoom-ajax-loader {
+    background-image: url(ajax-loader.gif);
+    width: 32px;
+    height: 32px;
+}
+
+.main-menu a {
+    line-height: 20px;
+}
+
+.section5 {
+    background: url(../img/section5.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.h3 {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 41px;
+    line-height: 53px;
+    text-align: center;
+    margin: 0;
+    padding-top: 63px;
+}
+
+.block_right {
+    width: 50%;
+    float: left;
+    margin-top: 7%;
+}
+
+.block_left {
+    width: 50%;
+    float: left;
+    margin-top: 7%;
+}
+
+
+.text_sec5 {
+    font-family: "MuseoSansCyrl-500";
+    color: #000000;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    margin: 0;
+    padding: 1% 0;
+}
+
+.text_sec5 span {
+    font-family: "MuseoSansCyrl-700";
+    color: rgb(239, 102, 34);
+    font-size: 23px;
+    line-height: 27px;
+    padding: 0 5px;
+}
+.pb4{
+    padding-bottom: 4%;
+}
+.section6 {
+    background-image: url(../img/section6.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    p {
+        font-family: "MuseoSansCyrl-500";
+        color: #ffffff;
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+        padding: 37px 0;
+        margin: 0;
+    }
+    input {
+        margin-bottom: 65px;
+    }
+}
+
+.block-input-form {
+    text-align: center;
+    @include input-form;
+    @include input-span;
+    span {
+        margin-top: -39px;
+    }
+}
+
+.section7 {
+    height: 1293px;
+    background-image: url(../img/section7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    @include up-head;
+    //    .system{
+    //    padding: 37px 0 0 0;
+    //   }
+    .img-sec7 {
+        position: relative;
+        width: 33%;
+        height: auto;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        float: left;
+        input[type="button"] {
+            border-radius: 25px;
+            background-color: #1da2d6;
+            width: 120px;
+            height: 32px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    @mixin position {
+        input {
+            position: absolute;
+            bottom: 85px;
+            left: 138px;
+        }
+    }
+    .sec71,
+    .sec72,
+    .sec73,
+    .sec74,
+    .sec75,
+    .sec76 {
+        @include position;
+        p {
+            font-family: "MuseoSansCyrl-500";
+            color: #000000;
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+    .sec74,
+    .sec75,
+    .sec76 {
+        padding-top: 2%;
+    }
+    .sec74 p {
+        font-weight: bold;
+        position: absolute;
+        bottom: 153px;
+        left: 49px;
+    }
+    .sec75 p,
+    .sec76 p {
+        font-weight: bold;
+        position: absolute;
+        bottom: 115px;
+        left: 34px;
+    }
+}
+
+.section8 {
+    @include up-head;
+    .table {
+        width: 100%;
+        height: 855px;
+        background-image: url(../img/fon-table.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        img {
+        max-width: 95%;
+        height: auto;
+        margin-top: 6%;
+        }
+    }
+    .star {
+        width: 870px;
+        margin-left: 15%;
+        margin-bottom: 7%;
+    }
+    .star img {
+        display: block;
+        float: left;
+        margin-right: 1%;
+    }
+    .star .system {
+        padding: 0;
+        text-align: left;
+    }
+}
+
+.pull-1 {
+    margin-left: 7.14%;
+}
+
+.pull-4 {
+    margin-left: 28.56%;
+}
+
+.pull-6 {
+    margin-left: 42.84%;
+}
+
+.section9 {
+    .col-4,
+    .col-5,
+    .col-6 {
+        text-align: center;
+        span {
+            font-family: "MuseoSansCyrl-700";
+            color: #000000;
+            font-size: 16px;
+            line-height: 21px;
+        }
+        p {
+            font-family: "MuseoSansCyrl-700";
+            font-size: 18px;
+            line-height: 21px;
+            color: orangered;
+        }
+    }
+    figure {
+        .kolo {
+            position: absolute;
+            left: 29%;
+            top: 32%;
+            width: 42.84%;
+            height: 500px;
+            background-image: url(../img/Kolo.png);
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            p {
+                font-family: "MuseoSansCyrl-500";
+                color: orangered;
+                font-size: 120px;
+                margin-bottom: 0;
+            }
+            span {
+                font-family: "MuseoSansCyrl-500";
+                font-size: 18px;
+                line-height: 21px;
+                display: block;
+            }
+            input[type="button"] {
+                border-radius: 25px;
+                background-color: #1da2d6;
+                width: 233px;
+                height: 52px;
+                color: #fff;
+                text-align: center;
+                margin: 0;
+                margin-top: 3%;
+            }
+        }
+    }
+}
+
+.section10 {
+    @include up-head;
+    margin-bottom: 2%;
+    .h3 {
+        margin-bottom: 63px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .col-1 {
+        margin-top: 6%;
+        text-align: center;
+    }
+    p {
+        font-family: "MuseoSansCyrl-500";
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .col-2 {
+        text-align: center;
+    }
+      
+    input[type="button"] {
+        position: absolute;
+        left: 0;
+        top: 89%;
+        border-radius: 25px;
+        background-color: #1da2d6;
+        width: 200px;
+        height: 52px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.eTimer {
+    margin-top: 3%;
+    margin-left: 6%;
+    margin-right: 5%;
+    float: left;
+}
+
+.change6 p {
+    padding-top: 32px;
+    text-align: left;
+}
+
+.section11 {
+    background-image: url(../img/section11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+        box-sizing: border-box;
+    .block-center {
+        padding: 0;
+        overflow: hidden;
+    }
+    .object-info {
+        width: 100%;
+        height: 70px;
+        background-color: #e0dfdf;
+        padding: 20px 0 0 33px;
+        overflow: hidden;
+        img {
+            margin: 0 2%;
+        }
+        color: black;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 18px;
+        line-height: 20px;
+        span {
+            font-weight: bold;
+        }
+        .obj {
+            color: black;
+            font-family: "MuseoSansCyrl-500";
+            font-size: 28px;
+            line-height: 20px;
+        }
+    }
+  
+    li {
+        color: black;
+        font-family: "MuseoSansCyrl-500";
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h7 {
+        padding-left: 11%;
+        font-weight: bold;
+    }
+    .result .h3{
+font-size: 34px;
+line-height: 20px;
+text-transform: uppercase;  
+        
+    }
+    .results{
+      margin: 3% 2.38%;
+        padding: 0 2%;
+    span{
+    font-family: "MuseoSansCyrl-500";
+        color: #1da2d6;
+
+font-size: 78px;
+line-height: 20px;
+    
+  
+    text-align: center;
+    border-bottom: 3px solid #bebebe;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    p{
+        font-family:"MuseoSansCyrl-300";
+        font-size: 16px;
+        line-height: 20px;
+    }
+    }
+    .feedback{
+        width: 100%;
+        background-color: #e0dfdf;
+        padding: 3% 0;
+    
+        .col-10{
+        margin-left: 5%;
+        img{
+            margin-right: 3%;
+            float: left;
+            }
+    
+    span{
+        font-family: "MuseoSansCyrl-700";
+        font-size: 21px;
+        line-height: 27px;
+        }
+        p{
+         font-family: "MuseoSansCyrl-700";
+         font-size: 16px;
+         line-height: 23px;
+         margin-top: 3%;
+        }
+               }
+             }
+    
+    
+}
+.section12{
+    padding-bottom: 5%;
+    .col-11{
+        margin-top: 5%;
+    }
+    img{
+        float: left;
+        margin-right: 2%;
+    }
+    p{
+      font-family: "MuseoSansCyrl-500";
+      font-size: 25px;
+      line-height: 28px;
+    }
+    span{
+      font-family: "MuseoSansCyrl-500";
+      font-size: 16px;
+      line-height: 24px;
+    }
+}
+.section13{
+    background-image: url(../img/section13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-bottom: 5%;
+    .block-center{
+        padding-bottom: 2%;
+        span{
+        font-family: "MuseoSansCyrl-500";
+        font-size: 16px;
+        line-height: 23px;
+            }
+        p{
+            font-family: "MuseoSansCyrl-700";
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .row{
+            margin-top: 3%;
+        }
+    }
+    .partner{
+        height: 200px;
+        text-align: center;
+        position: relative;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        .sam{
+            margin-top: 8%;
+        }
+        span{
+            position: absolute;
+             top: 60%;
+            left: 1%;
+            font-family: "MuseoSansCyrl-500";
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .col-7{
+           margin: 3% 0 3% 21%;
+        img{
+            display: block;
+            float: left;
+            margin-right: 2%;
+            
+        }
+         span{
+            
+            font-family: "MuseoSansCyrl-500";
+            font-size: 14px;
+            line-height: 20px;
+             }
+    
+         }
+    .block-form{
+        margin-top: 4%;
+    }
+}
+.section14{
+    height: 846px;
+    .block-center{
+        width: 360px;
+        height: 430px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        position: absolute;
+        left: 22%;
+        top: 15%;
+        .pl15{
+            padding-left: 20%;
+        }
+         .pl22{
+            padding-left: 21%;
+        }
+        .row{
+            margin-bottom: 6%;
+        }
+        .contact{
+         font-family: "MuseoSansCyrl-500";
+         font-size: 26px;
+         line-height: 28px;
+            font-weight: bold;
+        }
+        img{
+            display: block;
+            float: left;
+            margin-right: 11%;
+            
+        }
+        .nomr{
+            margin-right: 2%;
+        }
+        .bold{
+           font-family: "MuseoSansCyrl-500";
+            font-size: 16px;
+           line-height: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        span{
+            font-family: "MuseoSansCyrl-500";
+            font-size: 15px;
+            padding-left: 2%;
+          
+        }
+    }
+    
+}
+.change6 {
+    background-image: url(../img/bkgtimer.png);
+}
+
+.grid-item {
+    width: 33%;
+}
+
+
+
+.hidden {
+    display: none;
+}
+.pop_form{
+   background-image: url(../img/section6.png); 
+    border-radius: 15px;
+
+h3 {
+ font-family: "MuseoSansCyrl-300";
+ font-size: 29px; 
+  padding-top: 2%;
+    color: #fff;
+}
+
+.button {
+    border-radius: 25px;
+    background-color: #1da2d6;
+    width: 233px;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    margin: 2%;
+     outline:none;
+}
+}
+
+
+
+.owl-pic {
+   width: 100%;
+}
+
+.owl1 {
+    margin-left: 1%;
+}
+
+.section11 .col-3 {
+   margin-top: 2%; 
+}
+
+.fa-bars {
+    display: none;
+}
+.fa-users{
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 6%;
+    left: 2%;
+    cursor: pointer;
+}

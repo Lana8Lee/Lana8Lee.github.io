@@ -1,0 +1,521 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  
+    .fa-bars{
+        display: none;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+    .inner{
+        width: 1024px;
+        max-width: 97%;
+    }
+   
+    .fa-bars{
+        display: none;
+    }
+    .main-menu li{
+            margin-right: 9px;
+    }
+    .namber-phone{
+        font-size: 24px;
+    }
+    .orange-btn {
+        width: 206px;
+    }
+    .md{
+     text-align: center;
+    }
+    .elem1{
+        left: 24%;
+    }
+      .elem2{
+        left: 28%;
+    }
+      .elem3{
+        left: 33%;
+    }
+      .elem4{
+        left: 62%;
+    }
+    .block-form span{
+        margin-right: 3%;
+    }
+    .section7 .sec71 input, .section7 .sec72 input, .section7 .sec73 input, .section7 .sec74 input, .section7 .sec75 input, .section7 .sec76 input{
+          bottom: 65px;
+    left: 100px;  
+    }
+    
+    .block-input-form span{
+        margin-right: 2%;
+    }
+    .section7 .sec74 p {
+        bottom: 142px;
+    }
+    .section7 .sec74 p, .section7 .sec75 p, .section7 .sec76 p {
+          font-size: 13px;
+          line-height: normal; 
+    }
+   .section8 .table {
+   height: 730px;
+    }
+    .section8 .star {
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+    .section9 figure .kolo input[type="button"] {
+   
+    width: 183px;
+    height: 45px;
+    margin-top: 2%;
+}
+    .section9 figure .kolo span {
+    font-size: 17px;
+    }
+    .section6 p {
+    font-size: 22px;
+    }
+    .section11 .results span {
+    font-size: 75px;
+    }
+    .section11 .object-info .obj {
+    margin: 0;
+}
+    .owl1 {
+    margin-top: 2%;
+}
+    .section12 p {
+    margin-bottom: 1%;
+}
+    
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+     .inner{
+        width: 768px;
+        max-width: 97%;
+         box-sizing: border-box;
+    }
+    .dn{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .line-menu{
+        visibility: hidden;
+    }
+  
+    .col-9{
+        width: 45.72%;
+        
+    }
+    .fa-bars{
+    font-size: 52px;
+    color: #777b83;
+    margin-top: 6%;
+    margin-left: 16%;
+        cursor: pointer;
+    }
+    .col-3{
+        width: 40%;
+    }
+
+    .main-menu li a {
+    color: #777b83;
+    font-size: 22px;
+        font-weight: bold;
+    line-height: normal;
+}
+    .main-menu li a:hover {
+      color: #ef6622;  
+    }
+    .main-menu li {
+    text-align: center;
+    margin: 5% 1%;
+    float: none;
+}
+    .circle{
+        display: none;
+    }
+    .block-form p {
+ font-size: 22px;
+    }
+    .block-form input[type="button"]{
+        margin: 4% 12% 0 5%;
+    } 
+    .block-left-img{
+       width: 100%; 
+    }
+    .viev-text{
+        width: 100%;
+        margin-top: 6%;
+    }
+    .section6 input {
+    margin-bottom: 3%;
+}
+    .section6 p{
+        padding-bottom: 1%;
+        padding-top: 2%;
+    }
+    .block-input-form {
+    padding: 3% 0;  
+}
+    .block-input-form input[type="button"]{
+        margin-right: 12%;
+        margin-left: -1%;
+        
+    }
+    .grid{
+        display: none;
+    }
+    .section7 {
+    height: 500px;
+    }
+    .section8 .table {
+    height: 600px;
+}
+    .section8 .system {
+        font-size: 18px;
+    }
+    .section9 figure .kolo p {
+    font-size: 73px;
+    margin-top: 46%;
+    }
+    .section9 figure .kolo span {
+    font-size: 15px;
+}
+    .section10 input[type="button"] {
+    top: 92%;
+    }
+    .section6 p {
+    display: block;
+    width: 35%;
+    float: right;
+    font-size: 15px;
+}
+    .block-form input {
+    margin-right: 46px;
+    }
+    .change6{
+        overflow: hidden;
+    }
+    .change6 input[type="text"]{
+        float: left;
+        margin: 3% 20% 2% 7%;
+    }
+    .change6 input[type="button"]{
+        float: left;
+        margin: auto;
+    }
+    .section11 .object-info{
+       padding: 10px 0 0 10px; 
+    }
+    .section11 .object-info .obj {
+    padding-left: 15%;
+}
+    .result{
+        display: none;
+    }
+    .owl1 {
+    width: 96%;
+    margin: 2%;
+}
+    .feedback img{
+        max-width: 100%;
+        height: auto;
+    }
+    .section13 .col-7 {
+    margin-top: 7%;
+}
+    .block-form span {
+    margin-top: 30px;
+}
+    .invisible-sm{
+        display: none;
+    }
+    .pop_form input{
+        float: left;
+        width: 60%;
+       margin: 2% 5%;
+         }
+     .pop_form .button{
+        width: 60%;
+          margin: 2% 5%;
+    }
+    .view{
+      width: 45%;  
+    }
+    .view-imgs{
+      width: 50%;    
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .inner{
+        width: 320px;
+        max-width: 320px;
+         box-sizing: border-box;
+      overflow: hidden;
+    }
+    .md{
+        width: 40%;
+        margin: 1%;
+    }
+    .col-9{
+        width: 50%;
+    }
+    .col-3{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8%;
+        padding-left: 23%;
+    }
+    .section1 .span{
+    font-size: 25px;
+    line-height: 32px;   
+    }
+    .wow{
+        width: 90%;
+        left: 1%;
+        margin-top: 2%;
+    }
+    .elem4{
+        margin-top: 10%;
+    }
+    .block-form p {
+    font-size: 18px;
+}
+    .block-form input {
+    margin: 3% auto;
+}
+    .block-form input[type="button"] {
+    margin: 4% auto;
+}
+    .block-form span {
+    margin: 8%;
+}
+    .invisible-xs{
+        display: none;
+    }
+    .h2 {
+    font-size: 16px;
+    }
+    .h3 {
+    font-size: 21px;
+    line-height: normal;
+     
+    }
+    .section7 .h3{
+    font-size: 21px;
+     line-height: normal;
+    }
+    .text_sec5{
+    font-size: 19px;
+    line-height: normal;
+    }
+   .section7 .system {
+    font-size: 18px;
+       line-height: normal;
+    }
+    .block-input-form input{
+      width: 203px;
+        margin: 2% auto;
+        height: 40px;
+         }
+    .block-input-form input[type="button"]{
+        width: 203px;
+        height: 40px;
+        margin: 4% auto;   
+    }
+    .section6 p {
+    width: 35%;
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+    padding-left: 1%;
+    }
+    .block-input-form span{
+        display:none;
+    }
+    .pull-4{
+        margin: 0;
+    }
+    .pull-6{
+        margin: 0;
+    }
+     .pull-1{
+        margin: 0;
+    }
+    .col-4{
+        width:100%;
+    }
+    .col-5{
+        width:100%;
+    }
+    .col-6{
+        width:100%;
+    }
+    .section10 .h3 {
+    font-size: 23px;
+    line-height: 20px;
+    }
+    .section10 .col-2{
+        width: 100%;
+    }
+     .section10 .col-1{
+    width: 90px;
+    margin: 10% 38%;
+         -moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+    }
+   .section10 {
+    margin-bottom: 20%;
+}
+    .section10 input[type="button"] {
+    top: 101%;
+    left: 18%;
+}
+    .block-right-text{
+        width: 100%;
+    }
+    .s4-p{
+          font-size: 16px;
+    line-height: normal;  
+    }
+  .eTimer {
+
+  margin-left: 0;
+      margin-right: 0;
+   }
+    .etUnit{
+        width: 22%;
+        
+    }
+    .etNumber{
+        font-size: 25px;
+    }
+    .eTimer .etUnit .etNumber {
+ padding: 0px 4px;
+    }
+    .section6 p {
+    width: 100%;
+    }
+    .block-input-form {
+    width: 100%;
+    overflow: hidden;
+        padding: 0;
+    }
+    .change6 input[type="text"] {
+ margin: 4% 2%;
+    width: 30%;
+        height: 40px;
+           font-size: 8px;
+    padding: 1%;
+    }
+    .change6 input[type="button"]{
+        width: 30%;
+        height: 40px;
+        font-size: 8px;
+        padding: 1%;
+        margin-bottom: 6%;
+       
+    }
+    .section11 .object-info .obj {
+    font-size: 15px;
+    line-height: normal;
+}
+    .section11 .object-info {
+        font-size: 15px;
+    line-height: normal;
+    }
+    .col-3{
+        padding-left: 0;
+        font-size: 15px;
+    line-height: normal; 
+    }
+    .feedback .col-10 span {
+    font-size: 15px;
+        line-height: normal;
+    }
+    .section12 .col-9{
+        width: 100%;
+         font-size: 15px;
+        line-height: normal;
+    }
+    .col-11{
+        width: 100%;
+         font-size: 15px;
+        line-height: normal;
+    }
+    
+.section14 .block-center {
+    width: 345px;
+    left: 2%;
+    top: 8%;
+}
+    .btn-big {
+    font-size: 13px;
+    }
+    
+    
+}
+    
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 481px) {
+ .invisible-xs{
+        display: block;
+    }
+       .block-input-form span{
+        display:inline;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 770px) {
+.invisible-sm{
+        display: block !important;
+    }
+    .main-menu{
+        display: block !important;
+    }
+    .block-center{
+        display: block; 
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
