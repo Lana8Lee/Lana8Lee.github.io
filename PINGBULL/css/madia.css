@@ -1,0 +1,493 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Medium Devices */
+
+@media all and (max-width: 959px) {
+    .content-wrapper {
+        width: 95%;
+    }
+    .content-wrapper {
+        max-width: 767px;
+    }
+    .logo {}
+    .menu {
+        width: 94%;
+        margin: 25px 0 0 -5px;
+        float: left;
+    }
+    .menu__list-item {
+        margin: 0;
+        margin-right: 6%;
+    }
+    .menu__list-item:last-child {
+        margin-right: 0;
+    }
+    /* -------------------------------- */
+    .slider {
+        margin: 30px 0 154px;
+    }
+    .slide {
+        padding: 0 3.3%;
+    }
+    .nav {
+        bottom: -54px;
+        right: 119px;
+    }
+    .slide__article {
+        margin-top: 99px;
+    }
+    .slide__title {
+        font-size: 48px;
+        line-height: 48px;
+        height: 48px;
+    }
+    .slide__subtitle {
+        font-size: 24px;
+        line-height: 24px;
+        height: 24px;
+        margin-top: 7px;
+    }
+    .slide__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        height: 106px;
+        margin-top: 7px;
+    }
+    .slide__img-container {
+        width: 40%;
+        margin-right: .6%;
+    }
+    .slide__img-iphone {
+        margin-top: -23px;
+    }
+    .slide__img-iphone-smooth {
+        top: 56px;
+    }
+    /* -------------------------------- */
+    .text {
+        height: 343px;
+    }
+    .text-wrapper--left {
+        padding-left: .5%;
+        padding-right: 3%;
+    }
+    .text-wrapper--middle {
+        padding: 0 1.7%;
+    }
+    .text-wrapper--right {
+        padding-left: 4%;
+    }
+    .text__title {
+        font-size: 24px;
+        line-height: 24px;
+        height: 24px;
+    }
+    .text__par {
+        height: 144px;
+        margin-top: 4px;
+    }
+    .text__link {
+        margin: 8px 10px;
+    }
+    /* -------------------------------- */
+    .stars {
+        width: 42.8%;
+        margin-top: 84px;
+        margin-left: 3.3%;
+    }
+    .star__title {
+        font-size: 24px;
+        height: 48px;
+    }
+    .star__highlight {
+        display: block;
+    }
+    .star__paragraph {
+        height: 144px;
+    }
+    .nav--stars {
+        width: 88px;
+        position: relative;
+        margin: 65px auto;
+        right: auto;
+        bottom: auto;
+    }
+    .blog {
+        width: 45%;
+        margin-left: 8%;
+    }
+    .blog-post {
+        margin-bottom: 25px;
+    }
+    .blog__link {
+        margin: 0;
+    }
+    /* -------------------------------- */
+    .brands {
+        display: block;
+        text-align: center;
+    }
+    .brands__item {
+        float: none;
+        display: inline-block;
+        margin: 0 3.7%;
+    }
+    .brands__item--first {
+        margin-left: 0;
+    }
+    .brands__item--last {
+        margin-right: 0;
+    }
+    /* -------------------------------- */
+    .activity-wrap--left {
+        padding-right: 4%;
+    }
+    .activity-wrap--middle {
+        padding: 0 3%;
+    }
+    .activity-wrap--right {
+        padding-left: 6%;
+    }
+    .logo--footer {
+        font-size: 43px;
+    }
+    .recent {
+        margin-top: 101px;
+    }
+    .recent__title {
+        font-size: 24px;
+        height: 24px;
+    }
+    .recent__paragraph {
+        margin-top: 9px;
+    }
+    /* -------------------------------- */
+    .page-footer {
+        height: 201px;
+    }
+    .menu--footer {
+        width: 80%;
+        margin-top: 27px;
+    }
+    .menu__list-item--footer {
+        margin-right: 5.5%;
+    }
+    .copyright {
+        margin-top: 86px;
+        margin-right: 3px;
+    }
+    /* -------------------------------- */
+}
+
+
+/* Small Devices */
+
+@media all and (max-width: 767px) {
+    /* -------------------------------- */
+    .header {
+        height: 107px;
+    }
+    .content-wrapper {
+        max-width: 480px;
+    }
+    .logo {
+        width: 158px;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+    }
+    .menu--vertical {
+        width: 244px;
+        margin-top: 27px;
+        margin-left: -123px;
+        padding: 0;
+        float: none;
+        position: absolute;
+        left: 50%;
+    }
+    .menu__list-item--vertical {
+        margin: 0;
+        padding: 0;
+        float: none;
+        text-align: center;
+    }
+    .menu__list-item--vertical:first-child {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .menu__list-item--vertical:last-child {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .menu__list-item--vertical:hover {
+        background: #261d2b;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    .menu__link--vertical {
+        margin: 0 auto;
+        line-height: 32px;
+        display: none;
+    }
+    .menu__link--active--vertical {
+        display: inline-block;
+    }
+    .menu--vertical:hover {
+        width: 242px;
+        margin-top: 19px;
+        background: #36293e;
+        background: rgba(54, 41, 62, 0.9);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+    .menu--vertical:hover .menu__link--vertical {
+        display: inline-block;
+        float: none;
+    }
+    .menu--vertical:hover .menu__link--active--vertical {
+        padding: 3px 5px 0 5px;
+    }
+    .menu--vertical:hover .menu__list-item--vertical {
+        padding: 3px 0 5px 0;
+        border-top: 1px solid #503d58;
+        border-bottom: 1px solid #36283e;
+    }
+    .menu--vertical .menu__list-item--vertical:hover {
+        padding-bottom: 4px;
+        border-bottom: 2px solid #edbfff;
+    }
+    .menu__link--vertical:hover {
+        border: none;
+    }
+    .menu__link--active--vertical:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+    /* -------------------------------- */
+    .slider {
+        height: 246px;
+        margin-bottom: 99px;
+    }
+    .slide__article {
+        width: 49%;
+        margin-top: 94px;
+        margin-left: 3%;
+    }
+    .slide__title {
+        font-size: 36px;
+        line-height: 36px;
+        height: 36px;
+    }
+    .slide__subtitle {
+        font-size: 18px;
+        line-height: 18px;
+        height: 18px;
+        margin-top: 2px;
+    }
+    .slide__paragraph {
+        display: none;
+    }
+    .slide__img-container {
+        width: 45%;
+        margin-top: 14px;
+        margin-right: 1%;
+    }
+    .slide__img-iphone {
+        height: 303px;
+    }
+    .slide__img-iphone-smooth {
+        height: 187px;
+        top: 55px;
+    }
+    .nav {
+        width: 100%;
+        bottom: -42px;
+        right: auto;
+        text-align: center;
+    }
+    .nav__item {
+        display: inline-block;
+        float: none;
+        margin-right: 0;
+    }
+    /* -------------------------------- */
+    .text {
+        height: 599px;
+    }
+    .box {
+        width: 100%;
+        height: auto;
+        padding: 0 2.3%;
+        float: none;
+    }
+    .text-cont {
+        float: none;
+        margin: 0 0 59px;
+    }
+    .text__title {}
+    .text__par {
+        height: 72px;
+        margin-top: 4px;
+    }
+    .text__link {
+        margin: 15px 0 0;
+    }
+    /* -------------------------------- */
+    .updates {
+        height: 786px;
+    }
+    .stars {
+        float: none;
+        width: 91%;
+        margin-left: 7%;
+        margin-top: 54px;
+    }
+    .star__title {
+        font-size: 30px;
+        height: 30px;
+    }
+    .star__highlight {
+        display: inline-block;
+    }
+    .star__paragraph {
+        height: 168px;
+    }
+    .nav--stars {
+        bottom: 6px;
+    }
+    .blog {
+        float: none;
+        width: 73.5%;
+        margin-left: 15.6%;
+        margin-top: 60px;
+    }
+    /* -------------------------------- */
+    .logos {
+        height: 232px;
+    }
+    .brands {
+        width: 93%;
+        margin: 37px auto;
+    }
+    .brands__item {
+        margin: 0 6% 22px;
+    }
+    /* -------------------------------- */
+    .activity {
+        height: 667px;
+        border-top: 1px solid transparent;
+    }
+    .logo--footer {
+        margin: 0;
+    }
+    .recent {
+        margin: 57px 0;
+    }
+    .recent__paragraph {
+        height: 96px;
+    }
+    /* -------------------------------- */
+    .menu--footer {
+        float: none;
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+        /*margin: 0 auto;*/
+    }
+    .menu__list-item--footer {
+        margin-right: 2.3%;
+    }
+    .copyright {
+        display: block;
+        width: 140px;
+        margin: 31px auto;
+        float: none;
+    }
+    /* -------------------------------- */
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media all and (max-width: 479px) {
+    .content-wrapper {
+        max-width: 320px;
+    }
+    .slider {
+        margin-bottom: 67px;
+        background: transparent;
+    }
+    .slide__article {
+        margin-left: 0;
+        width: 100%;
+    }
+    .slide__title,
+    .slide__subtitle {
+        text-align: center;
+    }
+    .slide__img-container,
+    .menu--footer,
+    .activity {
+        display: none;
+    }
+    .nav {
+        bottom: -2px;
+    }
+    /* -------------------------------- */
+    .text {
+        padding-top: 70px;
+    }
+    .box {
+        padding: 0 7%;
+    }
+    .text-cont {
+        margin-bottom: 65px;
+    }
+    /* -------------------------------- */
+    .stars {
+        width: 80%;
+        margin-top: 54px;
+        margin-left: 13.6%;
+        padding-top: 24px;
+    }
+    .star__photo {
+        top: -7px;
+    }
+    .star__title {
+        font-size: 24px;
+        height: 48px;
+    }
+    .star__highlight {
+        display: block;
+    }
+    .star__paragraph {
+        padding-top: 0;
+    }
+    .nav--stars {
+        bottom: 14px;
+    }
+    .blog {
+        width: 89%;
+        margin: 60px 6% 0;
+    }
+    .blog-post {
+        margin-bottom: 26px;
+    }
+    .blog__link {
+        margin: -4px 10px;
+    }
+    /* -------------------------------- */
+    .logos {
+        height: 421px;
+    }
+    .brands {
+        margin-top: 52px;
+    }
+    .brands__item {
+        margin: 0 8% 48px;
+    }
+    /* -------------------------------- */
+    .copyright {
+        margin: 25px auto;
+    }
+    /* -------------------------------- */
+}
