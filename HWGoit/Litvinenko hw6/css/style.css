@@ -647,6 +647,9 @@ ul.second_part {
     color: #114165;
     margin-top: 5px;
 }
+.products.wheels {
+    margin-top: -2%;
+}
 
 .products p .disks {
     margin-top: 1px;
@@ -882,11 +885,11 @@ label {
 footer {
     height: 100px;
     background-color: #213a4d;
-    margin-top: -9px;
+    margin-top: -16px;
 }
 
 .footer {
-    margin-left: 296px;
+    margin-left: 302px;
 }
 
 footer ul li {
@@ -909,7 +912,7 @@ footer ul li:hover a {
 
 footer .footer li:not(:last-child):after {
     content: "|";
-    padding: 0 2px 0 6px;
+    padding: 0 0px 0 6px;
     color: #bec6c9;
 }
 
@@ -918,7 +921,7 @@ footer p {
     text-align: center;
     color: #7f4740;
     font-size: 10px;
-    line-height: 39px;
+/*    line-height: 39px;*/
 }
 
 
