@@ -41,7 +41,7 @@
 	float: left;
 }
 .owl-controls .owl-page,
-.owl-controls .owl-buttons div{
+.owl-controls div{
 	cursor: pointer;
 }
 .owl-controls {

@@ -1,23 +1,62 @@
 $(document).ready(function(){
-	$("a[href^='#']").on("click",function(e){
-		e.preventDefault();
-		var top = $($(this).attr("href")).offset().top;
-		
-		console.log(top);
-		
-		$("body").animate({
-			scrollTop: top,
-			
-		},2000,'easeInSine');
-		
-	});
+    
+    //   ============ Scroll==========
+    
+//	$("a[href^='#']").on("tap",function(e){
+//		e.preventDefault();
+//		var top = $($(this).attr("href")).offset().top;
+//		
+//		console.log(top);
+//		
+//		$("body").animate({
+//			scrollTop: top,
+//        },2000);
+//		Do not work on mobile version
+//	});
+    
+     $("a[href='#top']").on("tap",function(){
+         $.scrollTo('#top',1500);
+     });
+     $("a[href='#s1']").on("tap",function(){
+         $.scrollTo('#s1',1500);
+     });
+     $("a[href='#s2']").on("tap",function(){
+         $.scrollTo('#s2',1500);
+     });
+     $("a[href='#s3']").on("tap",function(){
+         $.scrollTo('#s3',1500);
+     });
+     $("a[href='#s4']").on("tap",function(){
+         $.scrollTo('#s4',1500);
+     });
+    $("a[href='#s5']").on("tap",function(){
+         $.scrollTo('#s5',1500);
+     });
+    $("a[href='#bid']").on("tap",function(){
+         $.scrollTo('#bid',800);
+     });
+    $("a[href='#gift']").on("tap",function(){
+         $.scrollTo('#gift',800);
+     });
+         
+    
+
+    
+    //   ============ Timer==========
+    
     	$(".eTimer").eTimer({
-			etType: 1, etDate: "07.03.2016.0.0", etTitleText: "До окончания акции осталось:", etTitleSize: 21, etShowSign: 1, etSep: " ", etFontFamily: "Trebuchet MS", etTextColor: "#f3ebeb", etPaddingTB: 22, etPaddingLR: 10, etBackground: "#f1691e", etBorderSize: 0, etBorderRadius: 19, etBorderColor: "white", etShadow: " 0px 0px 10px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 35, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#262423", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset -3px 8px 5px 0px rgba(153, 143, 143, 0.5)"
+			etType: 1, etDate: "07.03.2016.0.0", etTitleText: "До окончания акции осталось:", etTitleSize: 17, etShowSign: 1, etSep: " ", etFontFamily: "Trebuchet MS", etTextColor: "#f3ebeb", etPaddingTB: 22, etPaddingLR: 10, etBackground: "#f1691e", etBorderSize: 0, etBorderRadius: 19, etBorderColor: "white", etShadow: " 0px 0px 10px 0px #333333", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 35, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "#262423", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset -3px 8px 5px 0px rgba(153, 143, 143, 0.5)"
 		});
     
+    //   ============ Wow animation==========
+    
 	new WOW().init();
-	
+    
+	//   ============ CloudZoom==========
+    
 	 CloudZoom.quickStart();
+    
+    //   ============ Line for maine menu==========
     
 	var left = 0;
 	$(".main-menu a").mouseenter(function(){
@@ -62,20 +101,20 @@ $(document).ready(function(){
 		
 		
 	});
-    
-
-  $grid = $('.grid').isotope({
   
-  itemSelector: '.grid-item',
-  layoutMode: 'fitRows'
-});
-    
+
+//  $grid = $('.grid').isotope({
+//  
+//  itemSelector: '.grid-item',
+//  layoutMode: 'fitRows'
+//});
+  //   ============ Phone valid mask==========  
     
    $("input[name='phone']").mask("+3 8(999) 999-99-99",{completed:function(){alert("You typed the following: "+this.val());}});
     $(".fancybox").fancybox();
    
 
-
+//   ============ PopUp window==========
 
 $("#callback").submit(function() {
 		$.ajax({
@@ -106,6 +145,7 @@ $("#callback").submit(function() {
 		return false;
         
     };
+    //   ============ Спасибо за заявку==========
     
 $("input[name='bids']").click(getbid);
     $("input[name='bid']").click(getbid);
@@ -113,7 +153,7 @@ $("input[name='bids']").click(getbid);
     $("input[name='gift']").click(getbid);
       $("input[name='userbid']").click(getbid);
     
-
+//   ============ Owl Carousel==========
     
     
    $(".owl1").owlCarousel(
@@ -133,9 +173,15 @@ $("input[name='bids']").click(getbid);
     $(".onfa").on("click",function(){
         $(".dn").toggle(".db");
     });
+     
     
+//   ============ Google map==========
     
-    
+  $('.map').on("tap", function () {
+    $('.map iframe').css("pointer-events", "auto");
+});
+  
+//     =============   end of google map
     
 
     

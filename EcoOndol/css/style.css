@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "MuseoSansCyrl-300";
-  src: url("../fonts/MuseoSansCyrl_300-webfont.eot?") format("eot"), url("../fonts/MuseoSansCyrl_300-webfont.ttf") format("truetype");
+  src: url("../fonts/MuseoSansCyrl_300-webfont.eot?") format("eot"),url("../fonts/MuseoSansCyrl_300-webfont.ttf") format("truetype");
 }
 @font-face {
   font-family: "MuseoSansCyrl-500";
@@ -152,7 +152,14 @@ img {
 .main-menu li {
   float: left;
   margin-right: 15px;
+    box-sizing: border-box;
 }
+/*
+.main-menu li:hover{
+    border-bottom: 0.1px solid orange;
+    
+}
+*/
 
 .main-menu li:last-child {
   margin: 0;
@@ -605,11 +612,11 @@ img {
 }
 
 a[href="#top"] {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   font-family: "MuseoSansCyrl-100";
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   color: #1da2d6;
@@ -1246,6 +1253,7 @@ a[href="#top"] {
 
 .section14 {
   height: 846px;
+     background:#e9e5dc;
 }
 .section14 .block-center {
   width: 360px;
@@ -1348,4 +1356,13 @@ a[href="#top"] {
   top: 6%;
   left: 2%;
   cursor: pointer;
+}
+.map iframe{
+    pointer-events: none;
+}
+
+
+
+.md img {
+    margin-top: 5%;
 }

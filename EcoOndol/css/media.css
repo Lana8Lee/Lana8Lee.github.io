@@ -145,17 +145,26 @@
         width: 40%;
     }
     .main-menu li a {
-        color: #777b83;
-        font-size: 22px;
-        font-weight: bold;
-        line-height: normal;
+    display: block;
+    box-sizing: content-box;
+    width: 158px;
+    height: auto;
+    border-radius: 17px;
+    border: 0.5px solid transparent;
+    background-color: #ef6622;
+    color: white;
+    padding: 5% 0 5% 5%;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 1.5px;
     }
     .main-menu li a:hover {
-        color: #ef6622;
+        color: #1da2d6;
     }
     .main-menu li {
         text-align: center;
-        margin: 5% 1%;
+        margin: 3% 1%;
         float: none;
     }
     .elem5 {
@@ -269,8 +278,19 @@
         height: auto;
     }
     .section13 .col-7 {
-        margin-top: 7%;
+        
+            margin: 7% 0 3% 27%;
     }
+    .section13 .partner {
+        height: 145px;
+        position: static; 
+}
+    .section13 .partner span{
+     position: static; 
+}
+    .section13 .partner img {
+    margin-bottom: 2%;
+}
     .block-form span {
         margin-top: 30px;
     }
@@ -296,13 +316,13 @@
         width: 99%;
     }
     .section11 .col-3{
-        width: 47%;
+        width: 90%;
     }
     .feedback .col-2{
         padding-left: 1%;
     }
     .resize{
-        width: 98%;
+        width: 85%;
     }
 }
 
@@ -311,10 +331,11 @@
 
 @media only screen and (max-width: 480px) {
     .inner {
-        width: 320px;
-        max-width: 320px;
+        width: 300px;
+        max-width: 300px;
         box-sizing: border-box;
         overflow: hidden;
+        margin: 0 auto;
     }
     .md {
         width: 40%;
@@ -325,21 +346,36 @@
         line-height: normal;
         background-color: #ef6622;
         height: 40px;
-        width: 340px;
+        width: 300px;
     }
     .col-9 {
         width: 50%;
     }
     .col-3 {
-        width: 100%;
+        width: 80%;
+        margin-left: 15%;
         text-align: center;
         margin-bottom: 8%;
-        padding-left: 23%;
+    
     }
     .section1 .span {
-        font-size: 25px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: normal;
+        background: none;
+        color: #1da2d6;
     }
+    .section1 {
+    padding-top: 4%;
+    }
+    .bkg-row-section1 {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-color: white;
+}
+    
     .wow {
         width: 90%;
         left: 1%;
@@ -369,6 +405,12 @@
     .h3 {
         font-size: 21px;
         line-height: normal;
+    }
+    .section5 .block_left{
+        width: 100%;   
+    }
+    .section5 .block_right{
+        width: 100%;   
     }
     .section7 .h3 {
         font-size: 21px;
@@ -489,18 +531,23 @@
         padding: 1%;
         margin-bottom: 6%;
     }
-    .section11 .object-info .obj {
+     .section11 .object-info {
         font-size: 15px;
         line-height: normal;
     }
-    .section11 .object-info {
-        font-size: 15px;
+    .section11 .object-info .obj {
+         padding: 2.8% 0 0 0;
+        font-size: 14px;
         line-height: normal;
     }
     .col-3 {
         padding-left: 0;
         font-size: 15px;
         line-height: normal;
+    }
+    .section11 .col-3 {
+    width: 95%;
+    margin-left: 0;
     }
     .feedback .col-10 span {
         font-size: 15px;
@@ -511,15 +558,38 @@
         font-size: 15px;
         line-height: normal;
     }
+    .section12 img {
+    max-width: 100%;
+    height: auto;
+    float: none;
+    margin-right: 30%;
+    }
     .col-11 {
         width: 100%;
         font-size: 15px;
         line-height: normal;
     }
+    .section13 .partner {
+    height: 180px;
+}
+    .section13 .partner .sam {
+    margin-top: 22%;
+    }
+    .section13 .col-7 img {
+     margin-right: 0%; 
+    margin-bottom: 8%;
+}
     .section14 .block-center {
-        width: 345px;
+        width: 280px;
         left: 2%;
         top: 8%;
+    }
+    .section14 .block-center .contact {
+    font-size: 20px;
+    line-height: normal;
+    }
+    .section14 .block-center span {
+    font-size: 12px;
     }
     .btn-big {
         font-size: 13px;
@@ -527,6 +597,9 @@
     }
     .section13 .col-7 {
         margin-left: 27%;
+    }
+    .section14 .block-center .pl22 {
+    padding-left: 27%;
     }
     .section1 .wow {
         width: 90%;
@@ -585,4 +658,5 @@
 
 /* Large Devices, Wide Screens */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
