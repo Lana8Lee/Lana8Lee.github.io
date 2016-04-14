@@ -13,10 +13,9 @@ function pow(a, b) {
 var a = prompt("Enter your number", '');
 var b = prompt("Enter your exponent", '');
 
-if (b <= 1) {
-  alert("These aren't the" + b + "your looking for.." 
-  
-  );
+if ((b ^ 0) === b)
+{
+   alert( pow(a, b) ); 
 } else {
-  alert( pow(a, b) );
-}
+  alert("These aren't the " + b + " your looking for.." );
+};
