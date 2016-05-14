@@ -7,9 +7,11 @@ $(document).ready(function () {
 
     $links.hover(function (e) {
             e.preventDefault();
-            $(this).siblings('.submenu').slideToggle(1000, stop());
+            $(this).siblings('.submenu').slideToggle(500, stop());
         }
-        , function () {});
+        , function () {
+            $(this).siblings('.submenu').slideToggle(500, stop());
+        });
 
     function stop() {
         $(this).siblings('.submenu').stop(true, true);
