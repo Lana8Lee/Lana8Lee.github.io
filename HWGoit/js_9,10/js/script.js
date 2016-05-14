@@ -14,8 +14,8 @@ $(document).ready(function () {
         });
 
     function stop() {
-        $(".sub-menu").stop(true, true);
-        //$(this).siblings('.submenu').stop(true, true);
+        //$(".sub-menu").stop(true, true);
+        $(this).siblings('.submenu').stop(true, true);
     };
 
 
