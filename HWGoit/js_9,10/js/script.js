@@ -7,14 +7,15 @@ $(document).ready(function () {
 
     $links.hover(function (e) {
             e.preventDefault();
-            $(this).siblings('.submenu').slideToggle(500, stop());
+            $(this).siblings('.submenu').slideDown(500, stop());
         }
         , function () {
-            $(this).siblings('.submenu').slideToggle(500, stop());
+            $(this).siblings('.submenu').slideUp(500, stop());
         });
 
     function stop() {
-        $(this).siblings('.submenu').stop(true, true);
+        $(".sub-menu").stop(true, true);
+        //$(this).siblings('.submenu').stop(true, true);
     };
 
 
