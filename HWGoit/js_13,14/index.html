@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js_13,14</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/tamplate.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+<h2>Тест по программированию</h2>
+<button class="show_test">Пройти тест</button>
+
+<script type="text/tamplate" id="test">
+<div class="container">
+
+<ol>
+<% for (var i = 0; i < data.length; i++) { %>
+     
+	<li><%= data[i].question %></li>
+
+	<ul>
+	<% for (var j = 0; j < data[i].answer.length; j++) { %>
+    <li><input type="radio" name="<%= data[i].name %>" class="checkbox" value="<%= data[i].check[j] %>"><%= data[i].answer[j] %></li>
+    <% }; %>
+	</ul>
+
+<% }; %>
+</ol>
+</div>
+</script>
+<button class="check">Проверить мои результаты</button>
+<div class="modal_window">
+	<p class="modal_text"></p>
+	<button class="modal_button">OK</button>
+</div>
+<div class="overlay"></div>
+</body>
+</html>
