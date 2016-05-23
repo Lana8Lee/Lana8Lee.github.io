@@ -94,6 +94,7 @@ h2,
 }
 
 .sub__left {
+    position: absolute;
     left: 120px;
     top: 0;
 }
