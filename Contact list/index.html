@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru-UA">
+
+<head>
+    <meta charset="UTF-8">
+    <title>js_23,24</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script data-main="js/main" src="js/require.js"></script>
+</head>
+
+<body>
+
+    <script type="text/template" id="friend-box">
+        <div class="fr-box">
+            <h2>Contact list</h2>
+    
+            <ol class="fr-box__friends">
+            </ol>
+            <div class="fr-box__controls">
+                <input type="text" class="fr-box__input" value="">
+                <button class="fr-box__add-button"><img src="img/add.png" alt="Add"></button>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="friends">
+        <% for (var i = 0; i < data.length; i++) { %>
+            <li class="fr-box__friend" data-name="<%= data[i]%>">
+                <%= data[i]%> <img src="img/edit.png" alt="Edit" class="fr-box__edit"><img src="img/delete.png" alt="Delete" class="fr-box__delete"></li>
+            <% }; %>
+    </script>
+
+</body>
+
+</html>

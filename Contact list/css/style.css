@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/bcg.jpg);
+    background-size: cover;
+}
+
+.fr-box {
+    box-sizing: border-box;
+    max-width: 500px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Lucida Console, sans-serif;
+    font-size: 18px;
+ 
+}
+button:active, 
+button:focus {
+    outline: none;
+}
+.fr-box__add-button{
+    border-radius: 29px ;
+    background-color: #b1b1a8;
+    margin-left: 20px;
+}
+.fr-box__add-button img{
+    width: 50px;
+    height: 60px;
+}
+
+.fr-box h2 {
+    margin-bottom: 20px;
+}
+
+.fr-box__friend {
+    line-height: 30px;
+}
+
+.fr-box__friend  img {
+    margin: 0 5px;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 205px;
+    border-radius: 29px;
+    background-color: #ccc;
+    margin-top: 24px;
+    padding-left: 10px;
+    outline: none;
+    float: left;
+}
+
+.fr-box__controls {
+    margin: 20px 0;
+}
+
+.fr-box__controls img {
+    margin: 0 5px;
+}
