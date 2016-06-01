@@ -9,11 +9,17 @@ define(["jquery", "model", "view"], function ($, model, view) {
         
         view.elements.addBtn.on('click', function () {
             var value = view.elements.input.val();
-            if (value !== '') {
+             if (value == 0) {
+               alert('You forgot to add new Name!');
+               return false;
+            }
+            else{
                 model.addItem(value);
                 view.updateFriends(model.data);
                 view.elements.input.val('');
-            }
+                 return true;   
+
+                }
         });
         
         view.elements.listContainer.on('click', 'img', function (e) {
