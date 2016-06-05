@@ -1,0 +1,2622 @@
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/roboto-light-webfont.eot");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratregular';
+  src: url("../fonts/montserrat-regular-webfont.eot");
+  font-weight: normal;
+  font-style: normal; }
+/*start reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, hr, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronum {
+  border: 0; }
+
+/*end reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+a img {
+  border: none; }
+
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * max-width: 320px*/
+@media screen and (max-width: 320px) {
+  .header-wrapper {
+    text-align: center;
+    width: 100%;
+    height: 541px;
+    padding-top: 19px;
+    background-color: #000;
+    background: url("../img/320-bg.jpg") center 0 no-repeat;
+    color: #fff;
+    font-family: "Montserrat Bold"; }
+    .header-wrapper .header-wrapper__login-sing-up {
+      display: block;
+      width: 56%;
+      margin: auto; }
+      .header-wrapper .header-wrapper__login-sing-up a {
+        text-decoration: none;
+        color: #fff; }
+      .header-wrapper .header-wrapper__login-sing-up .log-in {
+        font-style: normal;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        margin-right: 4%; }
+      .header-wrapper .header-wrapper__login-sing-up .header-wrapper__sign-up {
+        margin-left: 7%;
+        padding: 7px 9%;
+        border: 2px solid #fff;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 14px; }
+    .header-wrapper h3 {
+      margin-top: 119px;
+      letter-spacing: 0.1vw;
+      font-size: 21px; }
+    .header-wrapper h2 {
+      margin-top: 31px;
+      line-height: 35px;
+      font-size: 30px; }
+    .header-wrapper p {
+      margin: auto;
+      width: 68%;
+      margin-top: 9px;
+      font-size: 18px;
+      line-height: 22px;
+      font-family: "Roboto Light"; }
+    .header-wrapper .header-wrapper__find-btn {
+      margin: 15px;
+      padding: 11px 52px;
+      font-family: "Montserrat Bold";
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px;
+      background-color: #FF4F51;
+      display: inline-block; }
+      .header-wrapper .header-wrapper__find-btn a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px; }
+
+  .content-steps {
+    padding-top: 38px;
+    text-align: center; }
+    .content-steps h3 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 18px; }
+    .content-steps .content-steps__step {
+      width: 100%;
+      height: 240px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      margin: 0 auto 10px; }
+      .content-steps .content-steps__step .img {
+        width: 100%;
+        height: 240px; }
+      .content-steps .content-steps__step .one {
+        background: url("../img/cont300-first-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .two {
+        background: url("../img/cont300-second-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .three {
+        background: url("../img/cont300-third-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .content-steps__btn {
+        font-style: normal;
+        margin-top: 70px;
+        margin-left: -128px;
+        padding: 0 12px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        position: absolute;
+        z-index: 888; }
+        .content-steps .content-steps__step .content-steps__btn a {
+          font-family: "Montserrat Regular";
+          color: #fff;
+          font-size: 10px;
+          line-height: 16px;
+          letter-spacing: 2px; }
+      .content-steps .content-steps__step .content-steps__h3 {
+        text-align: left;
+        margin-left: 19px;
+        margin-top: 15px;
+        color: #fff;
+        font-family: "Montserrat Bold";
+        font-size: 24px;
+        margin-bottom: 0px;
+        position: absolute;
+        width: 260px;
+        top: 89px;
+        line-height: 29px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-h3 {
+        top: 119px;
+        line-height: 29px; }
+      .content-steps .content-steps__step .content-steps__p {
+        text-align: left;
+        margin-left: 19px;
+        margin-top: 10px;
+        padding-right: 5px;
+        line-height: 17px;
+        color: #fff;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        position: absolute;
+        width: 268px;
+        top: 163px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-p {
+        letter-spacing: 0.03vw; }
+    .content-steps .second {
+      padding-top: 30px; }
+
+  html, body {
+    height: 100%;
+    font: normal 12px/18px Arial, san-serif; }
+
+  .slider_wrap {
+    position: relative;
+    overflow: hidden; }
+
+  .slider_wrap .img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    margin: 0 auto; }
+
+  .slider_wrap .img:first-child {
+    display: block; }
+
+  .slider_wrap span {
+    margin-top: -13px;
+    width: 15px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 17%;
+    cursor: pointer;
+    background: url(../img/slider2_arrow.png) no-repeat; }
+
+  .slider_wrap span.next {
+    right: 17px;
+    background-position: -15px 0; }
+
+  .slider_wrap span.next:hover {
+    background-position: -15px -26px; }
+
+  .slider_wrap span.prev {
+    left: 17px;
+    background-position: 0 0; }
+
+  .slider_wrap span.prev:hover {
+    background-position: 0 -26px; }
+
+  .content-partners {
+    padding-top: 25px;
+    line-height: 26px; }
+    .content-partners h3 {
+      width: 98%;
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 11px; }
+    .content-partners .content-partners__partner {
+      margin-bottom: 13px; }
+      .content-partners .content-partners__partner .partner-img {
+        display: block;
+        position: relative;
+        width: 119px;
+        height: 120px;
+        top: 2px;
+        left: -2px;
+        margin: auto; }
+        .content-partners .content-partners__partner .partner-img img {
+          border-radius: 50%; }
+        .content-partners .content-partners__partner .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 86px;
+          left: 84px;
+          width: 33px;
+          height: 33px; }
+          .content-partners .content-partners__partner .partner-img .partner-icon img {
+            border-radius: 50%; }
+      .content-partners .content-partners__partner .partner-name {
+        display: block;
+        margin-top: 17px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .content-partners__partner p {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-right: 20vw;
+        width: 196px;
+        line-height: 18px;
+        letter-spacing: 0.03vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-1 {
+      margin-bottom: 13px; }
+      .content-partners .partner-1 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 2px;
+        left: 1px;
+        margin: auto;
+        background: url("../img/partner-1.png") no-repeat; }
+        .content-partners .partner-1 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 84px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tv.png") no-repeat; }
+      .content-partners .partner-1 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: -6px;
+        margin-left: -2px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-1 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 0px;
+        width: 196px;
+        line-height: 18px;
+        letter-spacing: 0.03vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-2 {
+      margin-bottom: 13px; }
+      .content-partners .partner-2 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 12px;
+        left: 1px;
+        margin: auto;
+        background: url("../img/partner-2.png") no-repeat; }
+        .content-partners .partner-2 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-sc.png") no-repeat; }
+      .content-partners .partner-2 .partner-name:after {
+        content: 'Lucas Marsha';
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-2 p:after {
+        content: "I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: -6%;
+        width: 220px;
+        line-height: 17px;
+        letter-spacing: 0.04vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-3 {
+      margin-bottom: 13px; }
+      .content-partners .partner-3 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 127px;
+        top: 13px;
+        left: 0px;
+        margin: auto;
+        background: url("../img/partner-3.png") no-repeat; }
+        .content-partners .partner-3 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tl.png") no-repeat; }
+      .content-partners .partner-3 .partner-name:after {
+        content: 'Heather Walker';
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: -6px;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-3 p:after {
+        content: "I'm a happy person that loves cats and climbing on mountains.";
+        display: block;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: -14px;
+        width: 222px;
+        line-height: 17px;
+        letter-spacing: 0.03vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-4 {
+      margin-bottom: 13px; }
+      .content-partners .partner-4 .partner-img {
+        display: block;
+        position: relative;
+        width: 127px;
+        height: 128px;
+        top: 14px;
+        left: 1px;
+        margin: auto;
+        background: url("../img/partner-4.png") no-repeat; }
+        .content-partners .partner-4 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-me.png") no-repeat; }
+      .content-partners .partner-4 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 20px;
+        margin-left: -5px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-4 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: -2px;
+        width: 197px;
+        line-height: 18px;
+        letter-spacing: 0.03vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .content-partners__find-btn {
+      border-radius: 20px;
+      border: 2px solid #FF4F51;
+      display: block;
+      width: 87%;
+      margin: 0 auto;
+      padding: 4px 21%;
+      margin-top: 25px;
+      margin-left: 6%;
+      margin-bottom: 38px;
+      font-family: "Montserrat Bold";
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px;
+      border: 2px solid #FF4F51; }
+      .content-partners .content-partners__find-btn a {
+        color: #FF4F51;
+        font-weight: bold;
+        font-size: 14px; }
+
+  .discover h3 {
+    text-align: center;
+    color: #000;
+    font-family: "Montserrat Bold";
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+
+  .grid {
+    margin: 0 auto;
+    width: 100%; }
+
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  /* ---- grid-item ---- */
+  .grid-sizer,
+  .grid-item {
+    width: 93%;
+    margin: 5px 10px; }
+    .grid-sizer div,
+    .grid-item div {
+      display: block;
+      position: absolute;
+      width: 84%;
+      margin: auto;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 14px; }
+      .grid-sizer div p,
+      .grid-item div p {
+        text-align: center; }
+
+  .grid-item {
+    height: 120px;
+    float: left;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px; }
+
+  .input-activities {
+    text-align: center; }
+    .input-activities h3 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      line-height: 25px;
+      margin-bottom: 14px;
+      margin-top: 32px;
+      margin-left: -4px; }
+    .input-activities p {
+      text-align: center;
+      color: #000;
+      font-family: "Roboto Light";
+      font-size: 18px;
+      margin-bottom: 18px;
+      margin-left: -3px; }
+    .input-activities .input-activities__input-search {
+      display: block;
+      margin: 0 auto;
+      width: 87%;
+      height: 40px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      border: none;
+      border: 1px solid #CBCBCB;
+      font-family: "Roboto Light";
+      font-size: 14px;
+      padding: 0 13px;
+      margin-bottom: 10px;
+      margin-left: 6%; }
+    .input-activities .input-activities__find-btn {
+      padding: 11px 26%;
+      font-family: "Montserrat Bold";
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px;
+      background-color: #FF4F51;
+      display: inline-block;
+      margin-bottom: 39px;
+      margin-left: -1%; }
+      .input-activities .input-activities__find-btn a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px; }
+    .input-activities .input-activities__find-btn:active {
+      background-color: #E5A252; }
+
+  .footer {
+    width: 100%;
+    border-top: 5px solid #FF4F51; }
+    .footer h3 {
+      text-align: center;
+      color: #FF4F51;
+      font-family: "Montserrat Bold";
+      font-size: 16px;
+      letter-spacing: 0.252vw;
+      margin-bottom: 8px;
+      margin-top: 16px; }
+    .footer h4 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 14px;
+      margin-bottom: 2px;
+      margin-top: 11px;
+      margin-left: -1%; }
+    .footer p {
+      text-align: center;
+      color: #E3E3E3;
+      font-family: "Montserrat Bold";
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      margin-top: 11px; }
+    .footer img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 18px; }
+    .footer .bottom__menu {
+      display: block;
+      width: 64%;
+      margin: 0 auto; }
+    .footer .bottom__menu .menu__item {
+      display: inline-block;
+      margin: 0px 5px;
+      padding: 0; }
+    .footer .bottom__menu .menu__link {
+      padding: 0 0; }
+    .footer .bottom__menu .menu__link {
+      color: #000;
+      font-family: "Roboto Light";
+      font-size: 14px;
+      text-decoration: none; }
+    .footer .bottom__menu .menu__link:hover {
+      border-bottom: 2px solid #FF4F51; } }
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * max-width: 768px*/
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .header-wrapper {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    padding-top: 37px;
+    background-color: #000;
+    background: url("../img/768-bg.jpg") center 0 no-repeat;
+    color: #fff;
+    font-family: "Montserrat Bold"; }
+    .header-wrapper .header-wrapper__login-sing-up {
+      display: block;
+      float: right;
+      width: 178px;
+      margin: auto;
+      margin-right: 5%; }
+      .header-wrapper .header-wrapper__login-sing-up a {
+        text-decoration: none;
+        color: #fff; }
+      .header-wrapper .header-wrapper__login-sing-up .log-in {
+        font-style: normal;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        margin-right: 4%; }
+      .header-wrapper .header-wrapper__login-sing-up .header-wrapper__sign-up {
+        margin-left: 7%;
+        padding: 7px 9%;
+        border: 2px solid #fff;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 14px; }
+    .header-wrapper h3 {
+      display: block;
+      float: left;
+      margin-top: 13px;
+      margin-left: 6%;
+      letter-spacing: 0.04vw;
+      padding-left: 0.2vw;
+      font-size: 21px; }
+    .header-wrapper h2 {
+      margin: 0 auto;
+      margin-top: 178px;
+      font-size: 52px;
+      display: block;
+      width: 70%;
+      line-height: 63px; }
+    .header-wrapper p {
+      margin: auto;
+      width: 55%;
+      margin-top: 26px;
+      font-size: 24px;
+      line-height: 22px;
+      font-family: "Roboto Light"; }
+    .header-wrapper .header-wrapper__find-btn {
+      margin-left: -1%;
+      margin-top: 36px;
+      padding: 11px 3%;
+      font-family: "Montserrat Bold";
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px;
+      background-color: #FF4F51;
+      display: inline-block; }
+      .header-wrapper .header-wrapper__find-btn a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px; }
+
+  .content-steps {
+    padding-top: 99px;
+    content: '';
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    width: 100%; }
+    .content-steps h3 {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 47%;
+      padding-left: 1%;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 17px; }
+    .content-steps .content-steps__step {
+      display: inline-block;
+      width: 236px;
+      height: 400px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      margin: 20px 8px; }
+      .content-steps .content-steps__step .img {
+        width: 100%;
+        height: 400px; }
+      .content-steps .content-steps__step .one {
+        background: url("../img/cont768-first-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .two {
+        background: url("../img/cont768-second-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .three {
+        background: url("../img/cont768-third-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .content-steps__btn {
+        font-style: normal;
+        top: 214px;
+        left: 22px;
+        padding: 0 12px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        position: absolute;
+        z-index: 888; }
+        .content-steps .content-steps__step .content-steps__btn a {
+          font-family: "Montserrat Regular";
+          color: #fff;
+          font-size: 10px;
+          line-height: 16px;
+          letter-spacing: 2px; }
+      .content-steps .content-steps__step .second-btn {
+        top: 260px; }
+      .content-steps .content-steps__step .content-steps__h3 {
+        text-align: left;
+        color: #fff;
+        font-family: "Montserrat Bold";
+        font-size: 24px;
+        margin-bottom: 0px;
+        position: absolute;
+        width: 90%;
+        top: 248px;
+        left: 7%;
+        line-height: 29px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-h3 {
+        top: 295px;
+        line-height: 29px;
+        left: 7%; }
+      .content-steps .content-steps__step .content-steps__p {
+        text-align: left;
+        padding-right: 5px;
+        line-height: 17px;
+        color: #fff;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        position: absolute;
+        width: 91%;
+        top: 316px;
+        letter-spacing: -0.01vw;
+        left: 18px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-p {
+        letter-spacing: 0.022vw;
+        top: 333px; }
+
+  html, body {
+    height: 100%;
+    font: normal 12px/18px Arial, san-serif; }
+
+  .slider_wrap {
+    position: relative;
+    overflow: hidden; }
+
+  .slider_wrap .img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0px; }
+
+  .slider_wrap .img:first-child {
+    display: block; }
+
+  .slider_wrap span {
+    margin-top: -13px;
+    width: 15px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 17%;
+    cursor: pointer;
+    background: url(../img/slider2_arrow.png) no-repeat; }
+
+  .slider_wrap span.next {
+    right: 16px;
+    background-position: -15px 0; }
+
+  .slider_wrap span.next:hover {
+    background-position: -15px -26px; }
+
+  .slider_wrap span.prev {
+    left: 16px;
+    background-position: 0 0; }
+
+  .slider_wrap span.prev:hover {
+    background-position: 0 -26px; }
+
+  .content-partners {
+    padding-top: 73px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 1%;
+    width: 99%; }
+    .content-partners h3 {
+      width: 55%;
+      margin: 0 auto;
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 29px; }
+    .content-partners .wrapper-partners {
+      width: 65%;
+      height: auto;
+      display: inline-block; }
+    .content-partners .wrapper-partners:after {
+      content: '';
+      display: block;
+      clear: both; }
+    .content-partners .partner-1 {
+      margin-bottom: 32px;
+      /* float: left; */
+      text-align: center;
+      width: 245px;
+      height: 217px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-1 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 2px;
+        left: 2px;
+        margin: auto;
+        background: url("../img/partner-1.png") no-repeat; }
+        .content-partners .partner-1 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tv.png") no-repeat; }
+      .content-partners .partner-1 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 10px;
+        margin-left: 1px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-1 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 24px;
+        width: 196px;
+        line-height: 18px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-3 {
+      margin-bottom: 32px;
+      /* float: left; */
+      text-align: center;
+      width: 245px;
+      height: 217px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-3 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 12px;
+        left: 3px;
+        margin: auto;
+        background: url("../img/partner-2.png") no-repeat; }
+        .content-partners .partner-3 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-sc.png") no-repeat; }
+      .content-partners .partner-3 .partner-name:after {
+        content: 'Lucas Marsha';
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-3 p:after {
+        content: "I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 11px;
+        width: 222px;
+        line-height: 17px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-2 {
+      margin-bottom: 32px;
+      /* float: left; */
+      text-align: center;
+      width: 245px;
+      height: 217px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-2 .partner-img {
+        display: block;
+        position: relative;
+        width: 128px;
+        height: 127px;
+        top: 2px;
+        left: 12px;
+        margin: auto;
+        background: url("../img/partner-3.png") no-repeat; }
+        .content-partners .partner-2 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tl.png") no-repeat; }
+      .content-partners .partner-2 .partner-name:after {
+        content: 'Heather Walker';
+        display: block;
+        margin: 0 auto;
+        margin-top: 9px;
+        margin-left: 17px;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-2 p:after {
+        content: "I'm a happy person that loves cats and climbing on mountains.";
+        display: block;
+        margin: 0 auto;
+        margin-top: 8px;
+        width: 214px;
+        line-height: 17px;
+        letter-spacing: 0.01vw;
+        margin-left: 23px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-4 {
+      margin-bottom: 32px;
+      /* float: left; */
+      text-align: center;
+      width: 245px;
+      height: 217px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-4 .partner-img {
+        display: block;
+        position: relative;
+        width: 127px;
+        height: 128px;
+        top: 11px;
+        left: 11px;
+        margin: auto;
+        background: url("../img/partner-4.png") no-repeat; }
+        .content-partners .partner-4 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-me.png") no-repeat; }
+      .content-partners .partner-4 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 18px;
+        margin-left: 16px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-4 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 27px;
+        width: 206px;
+        line-height: 18px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .wrapper-btn {
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 36px;
+      margin-bottom: 98px; }
+      .content-partners .wrapper-btn .content-partners__find-btn {
+        border-radius: 20px;
+        border: 2px solid #FF4F51;
+        display: block;
+        width: 192px;
+        padding: 4px 0px;
+        margin-left: 6px;
+        font-family: "Montserrat Bold";
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        border: 2px solid #FF4F51; }
+        .content-partners .wrapper-btn .content-partners__find-btn a {
+          color: #FF4F51;
+          font-weight: bold;
+          font-size: 14px; }
+
+  .content-partners:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  .discover {
+    width: 100%;
+    text-align: center; }
+    .discover h3 {
+      display: inline-block;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      line-height: 24px;
+      margin-bottom: 25px; }
+
+  .grid {
+    margin: 0 auto;
+    width: 100%; }
+
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  /* ---- grid-item ---- */
+  .grid-item {
+    display: block;
+    float: left;
+    width: 31%;
+    height: 308px;
+    margin: 1% 1%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+    .grid-item div {
+      display: block;
+      position: absolute;
+      width: 84%;
+      margin: auto;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 14px; }
+      .grid-item div p {
+        text-align: center; }
+
+  .grid-item--width2 {
+    width: 64%; }
+
+  .input-activities {
+    content: '';
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    margin-bottom: 60px; }
+    .input-activities h3 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 33px;
+      margin-top: 106px;
+      margin-left: -3px; }
+    .input-activities p {
+      text-align: center;
+      color: #000;
+      font-family: "Roboto Light";
+      font-size: 18px;
+      margin-bottom: 40px;
+      margin-left: -3px; }
+    .input-activities .inpt-btn {
+      text-align: center;
+      display: inline-block;
+      width: 69%;
+      margin: 0 auto; }
+      .input-activities .inpt-btn .input-activities__input-search {
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -1px;
+        width: 240px;
+        height: 40px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        border: none;
+        border: 1px solid #CBCBCB;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        padding: 0 15px;
+        margin-bottom: 10px; }
+      .input-activities .inpt-btn .input-activities__find-btn {
+        display: inline-block;
+        padding: 11px 24px;
+        font-family: "Montserrat Bold";
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        margin-bottom: 39px;
+        margin-left: 7px; }
+        .input-activities .inpt-btn .input-activities__find-btn a {
+          color: #fff;
+          font-weight: bold;
+          font-size: 14px; }
+
+  .footer {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-top: 5px solid #FF4F51;
+    padding-top: 20px; }
+    .footer h3 {
+      display: block;
+      float: left;
+      color: #FF4F51;
+      font-family: "Montserrat Bold";
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin-top: 15px;
+      margin-left: 38px;
+      margin-right: 38px; }
+    .footer .footer__company {
+      display: block;
+      float: left;
+      width: 156px;
+      margin-right: 15px; }
+      .footer .footer__company h4 {
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px;
+        letter-spacing: 0px;
+        margin-bottom: 1px;
+        margin-top: 15px;
+        margin-left: 0px; }
+      .footer .footer__company .bottom__menu {
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 12px; }
+      .footer .footer__company .bottom__menu .menu__item {
+        display: block;
+        margin-left: 31px;
+        margin-top: 5px;
+        padding: 0; }
+      .footer .footer__company .bottom__menu .menu__link {
+        padding: 0 0; }
+      .footer .footer__company .bottom__menu .menu__link {
+        color: #000;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        text-decoration: none; }
+      .footer .footer__company .bottom__menu .menu__link:hover {
+        border-bottom: 2px solid #FF4F51; }
+
+  .footer__partners {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 61px;
+    margin-left: 43px;
+    margin-right: 41px; }
+    .footer__partners h4 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 14px;
+      letter-spacing: 0px;
+      margin-bottom: 1px;
+      margin-top: 15px; }
+
+  .logo {
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    margin-left: 75px; }
+    .logo p {
+      width: 91px;
+      text-align: center;
+      color: #E3E3E3;
+      font-family: "Montserrat Bold";
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      margin-left: 31px;
+      margin-top: 14px; }
+    .logo img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 18px; } }
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * max-width: 1440px*/
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  .header-wrapper {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    padding-top: 37px;
+    background-color: #000;
+    background: url("../img/1440-bg.jpg") center 0 no-repeat;
+    color: #fff;
+    font-family: "Montserrat Bold"; }
+    .header-wrapper .header-wrapper__login-sing-up {
+      display: block;
+      float: right;
+      width: 165px;
+      margin-right: 17%;
+      margin-top: 1px; }
+      .header-wrapper .header-wrapper__login-sing-up a {
+        text-decoration: none;
+        color: #fff; }
+      .header-wrapper .header-wrapper__login-sing-up .log-in {
+        font-style: normal;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        margin-right: 9px; }
+      .header-wrapper .header-wrapper__login-sing-up .header-wrapper__sign-up {
+        margin-left: 7%;
+        padding: 7px 9%;
+        border: 2px solid #fff;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 14px; }
+    .header-wrapper h3 {
+      display: block;
+      float: left;
+      margin-top: 13px;
+      margin-left: 17%;
+      letter-spacing: 0.02vw;
+      padding-left: 0.3vw;
+      font-size: 21px; }
+    .header-wrapper h2 {
+      margin: 0 auto;
+      margin-top: 178px;
+      font-size: 52px;
+      display: block;
+      width: 40%;
+      line-height: 62px;
+      padding-right: 3px; }
+    .header-wrapper p {
+      margin: auto;
+      width: 55%;
+      margin-top: 27px;
+      font-size: 24px;
+      line-height: 22px;
+      font-family: "Roboto Light"; }
+    .header-wrapper .header-wrapper__find-btn {
+      margin-top: 38px;
+      padding: 11px 23px;
+      font-family: "Montserrat Bold";
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px;
+      background-color: #FF4F51;
+      display: inline-block; }
+      .header-wrapper .header-wrapper__find-btn a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px; }
+
+  .content-steps {
+    padding-top: 99px;
+    content: '';
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    width: 100%; }
+    .content-steps h3 {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 25%;
+      padding-right: 4px;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 17px; }
+    .content-steps .content-steps__step {
+      display: inline-block;
+      width: 300px;
+      height: 400px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      margin: 20px 8px; }
+      .content-steps .content-steps__step .img {
+        width: 100%;
+        height: 400px; }
+      .content-steps .content-steps__step .one {
+        background: url("../img/cont1440-first-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .two {
+        background: url("../img/cont1440-second-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .three {
+        background: url("../img/cont1440-third-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .content-steps__btn {
+        font-style: normal;
+        top: 231px;
+        left: 22px;
+        padding: 0 12px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        position: absolute;
+        z-index: 888; }
+        .content-steps .content-steps__step .content-steps__btn a {
+          font-family: "Montserrat Regular";
+          color: #fff;
+          font-size: 10px;
+          line-height: 16px;
+          letter-spacing: 2px; }
+      .content-steps .content-steps__step .second-btn {
+        top: 261px;
+        left: 21px; }
+      .content-steps .content-steps__step .content-steps__h3 {
+        text-align: left;
+        color: #fff;
+        font-family: "Montserrat Bold";
+        font-size: 24px;
+        margin-bottom: 0px;
+        position: absolute;
+        width: 90%;
+        top: 265px;
+        left: 18px;
+        line-height: 29px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-h3 {
+        top: 295px;
+        line-height: 29px;
+        left: 6%; }
+      .content-steps .content-steps__step .third-h3 {
+        top: 265px;
+        left: 7%; }
+      .content-steps .content-steps__step .content-steps__p {
+        text-align: left;
+        padding-right: 5px;
+        line-height: 17px;
+        color: #fff;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        position: absolute;
+        width: 91%;
+        top: 334px;
+        letter-spacing: -0.001vw;
+        left: 19px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-p {
+        letter-spacing: 0.007vw;
+        top: 334px;
+        width: 276px; }
+      .content-steps .content-steps__step .third-p {
+        letter-spacing: 0.004vw; }
+
+  html, body {
+    height: 100%;
+    font: normal 12px/18px Arial, san-serif; }
+
+  .slider_wrap {
+    position: relative;
+    overflow: hidden; }
+
+  .slider_wrap .img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0px; }
+
+  .slider_wrap .img:first-child {
+    display: block; }
+
+  .slider_wrap span {
+    margin-top: -13px;
+    width: 15px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    background: url(../img/slider2_arrow.png) no-repeat; }
+
+  .slider_wrap span.next {
+    right: 16px;
+    background-position: -15px 0; }
+
+  .slider_wrap span.next:hover {
+    background-position: -15px -26px; }
+
+  .slider_wrap span.prev {
+    left: 16px;
+    background-position: 0 0; }
+
+  .slider_wrap span.prev:hover {
+    background-position: 0 -26px; }
+
+  .content-partners {
+    padding-top: 72px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 1%;
+    width: 99%; }
+    .content-partners h3 {
+      width: 30%;
+      padding-left: 10px;
+      margin: 0 auto;
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 29px; }
+    .content-partners .wrapper-partners {
+      width: 72%;
+      height: auto;
+      display: inline-block;
+      margin-bottom: 7px; }
+    .content-partners .wrapper-partners:after {
+      content: '';
+      display: block;
+      clear: both; }
+    .content-partners .partner-1 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-1 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 3px;
+        left: 30px;
+        margin: auto;
+        background: url("../img/partner-1.png") no-repeat; }
+        .content-partners .partner-1 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 83px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tv.png") no-repeat; }
+      .content-partners .partner-1 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 10px;
+        margin-left: 54px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-1 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 9px;
+        margin-left: 52px;
+        width: 198px;
+        line-height: 18px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-2 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-2 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 3px;
+        left: 16px;
+        margin: auto;
+        background: url("../img/partner-3.png") no-repeat; }
+        .content-partners .partner-2 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tl.png") no-repeat; }
+      .content-partners .partner-2 .partner-name:after {
+        content: 'Heather Walker';
+        display: block;
+        margin-top: 11px;
+        margin-left: 28px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-2 p:after {
+        content: "I'm a happy person that loves cats and climbing on mountains.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 31px;
+        width: 215px;
+        line-height: 17px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-3 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-3 .partner-img {
+        display: block;
+        position: relative;
+        width: 128px;
+        height: 127px;
+        top: 3px;
+        left: 5px;
+        margin: auto;
+        background: url("../img/partner-2.png") no-repeat; }
+        .content-partners .partner-3 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-sc.png") no-repeat; }
+      .content-partners .partner-3 .partner-name:after {
+        content: 'Lucas Marsha';
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 1px;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-3 p:after {
+        content: "I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.";
+        display: block;
+        margin: 0 auto;
+        margin-top: 8px;
+        width: 222px;
+        line-height: 17px;
+        letter-spacing: 0.007vw;
+        margin-left: 14px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-4 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-4 .partner-img {
+        display: block;
+        position: relative;
+        width: 128px;
+        height: 127px;
+        top: 3px;
+        left: -8px;
+        margin: auto;
+        background: url("../img/partner-4.png") no-repeat; }
+        .content-partners .partner-4 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-me.png") no-repeat; }
+      .content-partners .partner-4 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 10px;
+        margin-left: -24px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-4 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 9px;
+        width: 206px;
+        line-height: 18px;
+        letter-spacing: 0.005vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .wrapper-btn {
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 99px; }
+      .content-partners .wrapper-btn .content-partners__find-btn {
+        border-radius: 20px;
+        border: 2px solid #FF4F51;
+        display: block;
+        width: 192px;
+        padding: 4px 0px;
+        margin-left: 11px;
+        font-family: "Montserrat Bold";
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        border: 2px solid #FF4F51; }
+        .content-partners .wrapper-btn .content-partners__find-btn a {
+          color: #FF4F51;
+          font-weight: bold;
+          font-size: 14px; }
+
+  .content-partners:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  .discover {
+    width: 100%;
+    text-align: center; }
+    .discover h3 {
+      display: inline-block;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      line-height: 24px;
+      margin-bottom: 25px;
+      margin-left: -3px; }
+
+  .grid {
+    margin: 0 auto;
+    width: 67%; }
+
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  /* ---- grid-item ---- */
+  .grid-item {
+    display: inline-block;
+    width: 31%;
+    margin: 1% 1%; }
+    .grid-item div {
+      display: block;
+      position: absolute;
+      width: 84%;
+      margin: auto;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 14px; }
+      .grid-item div p {
+        text-align: center; }
+
+  .grid-item {
+    display: inline-block;
+    text-align: center;
+    height: 309px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px; }
+
+  .grid-item--width2 {
+    display: inline-block;
+    text-align: center;
+    width: 64%; }
+
+  .input-activities {
+    content: '';
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    margin-bottom: 60px; }
+    .input-activities h3 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 35px;
+      margin-top: 92px;
+      margin-left: -3px; }
+    .input-activities p {
+      text-align: center;
+      color: #000;
+      font-family: "Roboto Light";
+      font-size: 18px;
+      margin-bottom: 39px;
+      margin-left: -4px; }
+    .input-activities .inpt-btn {
+      text-align: center;
+      display: inline-block;
+      width: 69%;
+      margin: 0 auto; }
+      .input-activities .inpt-btn .input-activities__input-search {
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -1px;
+        width: 240px;
+        height: 40px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        border: none;
+        border: 1px solid #CBCBCB;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        padding: 0 15px;
+        margin-bottom: 10px; }
+      .input-activities .inpt-btn .input-activities__find-btn {
+        display: inline-block;
+        padding: 11px 24px;
+        font-family: "Montserrat Bold";
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        margin-bottom: 39px;
+        margin-left: 7px; }
+        .input-activities .inpt-btn .input-activities__find-btn a {
+          color: #fff;
+          font-weight: bold;
+          font-size: 14px; }
+
+  .footer {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-top: 5px solid #FF4F51;
+    padding-top: 20px; }
+    .footer h3 {
+      display: block;
+      float: left;
+      color: #FF4F51;
+      font-family: "Montserrat Bold";
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin-top: 15px;
+      margin-left: 248px;
+      margin-right: 52px; }
+    .footer .footer__company {
+      display: block;
+      float: left;
+      width: 156px;
+      margin-right: 4px; }
+      .footer .footer__company h4 {
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px;
+        letter-spacing: 0px;
+        margin-bottom: 1px;
+        margin-top: 15px;
+        margin-left: 0px; }
+      .footer .footer__company .bottom__menu {
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 12px; }
+      .footer .footer__company .bottom__menu .menu__item {
+        display: block;
+        margin-left: 31px;
+        margin-top: 5px;
+        padding: 0; }
+      .footer .footer__company .bottom__menu .menu__link {
+        padding: 0 0; }
+      .footer .footer__company .bottom__menu .menu__link {
+        color: #000;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        text-decoration: none; }
+      .footer .footer__company .bottom__menu .menu__link:hover {
+        border-bottom: 2px solid #FF4F51; }
+
+  .footer__partners {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 61px;
+    margin-left: 43px;
+    margin-right: 41px; }
+    .footer__partners h4 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 14px;
+      letter-spacing: 0px;
+      margin-bottom: 1px;
+      margin-top: 15px; }
+
+  .logo {
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    margin-left: 324px; }
+    .logo p {
+      width: 91px;
+      text-align: center;
+      color: #E3E3E3;
+      font-family: "Montserrat Bold";
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      margin-left: 31px;
+      margin-top: 14px; }
+    .logo img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 18px; } }
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+max-width: more than 1440px*/
+@media screen and (min-width: 1441px) {
+  .main {
+    width: 1442px;
+    margin: 0 auto; }
+
+  .header-wrapper {
+    display: block;
+    text-align: center;
+    width: 1440px;
+    height: 700px;
+    padding-top: 37px;
+    background-color: #000;
+    background: url("../img/1440-bg.jpg") center 0 no-repeat;
+    color: #fff;
+    font-family: "Montserrat Bold"; }
+    .header-wrapper .header-wrapper__login-sing-up {
+      display: block;
+      float: right;
+      width: 165px;
+      margin-right: 17%;
+      margin-top: 1px; }
+      .header-wrapper .header-wrapper__login-sing-up a {
+        text-decoration: none;
+        color: #fff; }
+      .header-wrapper .header-wrapper__login-sing-up .log-in {
+        font-style: normal;
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+        margin-right: 9px; }
+      .header-wrapper .header-wrapper__login-sing-up .header-wrapper__sign-up {
+        margin-left: 7%;
+        padding: 7px 9%;
+        border: 2px solid #fff;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 14px; }
+    .header-wrapper h3 {
+      display: block;
+      float: left;
+      margin-top: 13px;
+      margin-left: 17%;
+      letter-spacing: 0.02vw;
+      padding-left: 0.3vw;
+      font-size: 21px; }
+    .header-wrapper h2 {
+      margin: 0 auto;
+      margin-top: 178px;
+      font-size: 52px;
+      display: block;
+      width: 40%;
+      line-height: 62px;
+      padding-right: 3px; }
+    .header-wrapper p {
+      margin: auto;
+      width: 55%;
+      margin-top: 27px;
+      font-size: 24px;
+      line-height: 22px;
+      font-family: "Roboto Light"; }
+    .header-wrapper .header-wrapper__find-btn {
+      margin-top: 38px;
+      padding: 11px 23px;
+      font-family: "Montserrat Bold";
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      border-radius: 20px;
+      background-color: #FF4F51;
+      display: inline-block; }
+      .header-wrapper .header-wrapper__find-btn a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px; }
+
+  .content-steps {
+    padding-top: 99px;
+    content: '';
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    width: 100%; }
+    .content-steps h3 {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 25%;
+      padding-right: 4px;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 17px; }
+    .content-steps .content-steps__step {
+      display: inline-block;
+      width: 300px;
+      height: 400px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      margin: 20px 8px; }
+      .content-steps .content-steps__step .img {
+        width: 100%;
+        height: 400px; }
+      .content-steps .content-steps__step .one {
+        background: url("../img/cont1440-first-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .two {
+        background: url("../img/cont1440-second-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .three {
+        background: url("../img/cont1440-third-bg.jpg") center 0 no-repeat; }
+      .content-steps .content-steps__step .content-steps__btn {
+        font-style: normal;
+        top: 231px;
+        left: 22px;
+        padding: 0 12px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        position: absolute;
+        z-index: 888; }
+        .content-steps .content-steps__step .content-steps__btn a {
+          font-family: "Montserrat Regular";
+          color: #fff;
+          font-size: 10px;
+          line-height: 16px;
+          letter-spacing: 2px; }
+      .content-steps .content-steps__step .second-btn {
+        top: 261px;
+        left: 21px; }
+      .content-steps .content-steps__step .content-steps__h3 {
+        text-align: left;
+        color: #fff;
+        font-family: "Montserrat Bold";
+        font-size: 24px;
+        margin-bottom: 0px;
+        position: absolute;
+        width: 90%;
+        top: 265px;
+        left: 18px;
+        line-height: 29px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-h3 {
+        top: 295px;
+        line-height: 29px;
+        left: 6%; }
+      .content-steps .content-steps__step .third-h3 {
+        top: 265px;
+        left: 7%; }
+      .content-steps .content-steps__step .content-steps__p {
+        text-align: left;
+        padding-right: 5px;
+        line-height: 17px;
+        color: #fff;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        position: absolute;
+        width: 91%;
+        top: 334px;
+        letter-spacing: -0.001vw;
+        left: 19px;
+        z-index: 888; }
+      .content-steps .content-steps__step .second-p {
+        letter-spacing: 0.007vw;
+        top: 334px;
+        width: 276px; }
+      .content-steps .content-steps__step .third-p {
+        letter-spacing: 0.004vw; }
+
+  html, body {
+    height: 100%;
+    font: normal 12px/18px Arial, san-serif; }
+
+  .slider_wrap {
+    position: relative;
+    overflow: hidden; }
+
+  .slider_wrap .img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0px; }
+
+  .slider_wrap .img:first-child {
+    display: block; }
+
+  .slider_wrap span {
+    margin-top: -13px;
+    width: 15px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    background: url(../img/slider2_arrow.png) no-repeat; }
+
+  .slider_wrap span.next {
+    right: 16px;
+    background-position: -15px 0; }
+
+  .slider_wrap span.next:hover {
+    background-position: -15px -26px; }
+
+  .slider_wrap span.prev {
+    left: 16px;
+    background-position: 0 0; }
+
+  .slider_wrap span.prev:hover {
+    background-position: 0 -26px; }
+
+  .content-partners {
+    padding-top: 72px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 1%;
+    width: 99%; }
+    .content-partners h3 {
+      width: 30%;
+      padding-left: 10px;
+      margin: 0 auto;
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 29px; }
+    .content-partners .wrapper-partners {
+      width: 72%;
+      height: auto;
+      display: inline-block;
+      margin-bottom: 7px; }
+    .content-partners .wrapper-partners:after {
+      content: '';
+      display: block;
+      clear: both; }
+    .content-partners .partner-1 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-1 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 3px;
+        left: 30px;
+        margin: auto;
+        background: url("../img/partner-1.png") no-repeat; }
+        .content-partners .partner-1 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 83px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tv.png") no-repeat; }
+      .content-partners .partner-1 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 10px;
+        margin-left: 54px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-1 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 9px;
+        margin-left: 52px;
+        width: 198px;
+        line-height: 18px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-2 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-2 .partner-img {
+        display: block;
+        position: relative;
+        width: 125px;
+        height: 126px;
+        top: 3px;
+        left: 16px;
+        margin: auto;
+        background: url("../img/partner-3.png") no-repeat; }
+        .content-partners .partner-2 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-tl.png") no-repeat; }
+      .content-partners .partner-2 .partner-name:after {
+        content: 'Heather Walker';
+        display: block;
+        margin-top: 11px;
+        margin-left: 28px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-2 p:after {
+        content: "I'm a happy person that loves cats and climbing on mountains.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 31px;
+        width: 215px;
+        line-height: 17px;
+        letter-spacing: 0.01vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-3 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-3 .partner-img {
+        display: block;
+        position: relative;
+        width: 128px;
+        height: 127px;
+        top: 3px;
+        left: 5px;
+        margin: auto;
+        background: url("../img/partner-2.png") no-repeat; }
+        .content-partners .partner-3 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-sc.png") no-repeat; }
+      .content-partners .partner-3 .partner-name:after {
+        content: 'Lucas Marsha';
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 1px;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-3 p:after {
+        content: "I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.";
+        display: block;
+        margin: 0 auto;
+        margin-top: 8px;
+        width: 222px;
+        line-height: 17px;
+        letter-spacing: 0.007vw;
+        margin-left: 14px;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .partner-4 {
+      margin-bottom: 13px;
+      width: 250px;
+      height: 240px;
+      display: inline-block;
+      vertical-align: top; }
+      .content-partners .partner-4 .partner-img {
+        display: block;
+        position: relative;
+        width: 128px;
+        height: 127px;
+        top: 3px;
+        left: -8px;
+        margin: auto;
+        background: url("../img/partner-4.png") no-repeat; }
+        .content-partners .partner-4 .partner-img .partner-icon {
+          display: block;
+          position: absolute;
+          top: 85px;
+          left: 85px;
+          width: 41px;
+          height: 41px;
+          background: url("../img/icon-me.png") no-repeat; }
+      .content-partners .partner-4 .partner-name:after {
+        content: "Bradley Hunter";
+        display: block;
+        margin-top: 10px;
+        margin-left: -24px;
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px; }
+      .content-partners .partner-4 p:after {
+        content: "Based in Chicago. I love playing tennis and loud music.";
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 9px;
+        width: 206px;
+        line-height: 18px;
+        letter-spacing: 0.005vw;
+        color: #656565;
+        font-family: "Roboto Light";
+        font-size: 14px; }
+    .content-partners .wrapper-btn {
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 99px; }
+      .content-partners .wrapper-btn .content-partners__find-btn {
+        border-radius: 20px;
+        border: 2px solid #FF4F51;
+        display: block;
+        width: 192px;
+        padding: 4px 0px;
+        margin-left: 11px;
+        font-family: "Montserrat Bold";
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        border: 2px solid #FF4F51; }
+        .content-partners .wrapper-btn .content-partners__find-btn a {
+          color: #FF4F51;
+          font-weight: bold;
+          font-size: 14px; }
+
+  .content-partners:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  .discover {
+    width: 100%;
+    display: block;
+    text-align: center; }
+    .discover h3 {
+      display: inline-block;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      line-height: 24px;
+      margin-bottom: 13px;
+      margin-left: -3px; }
+
+  .grid {
+    margin: 0 auto;
+    width: 960px; }
+
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+  /* ---- grid-item ---- */
+  .grid-sizer,
+  .grid-item {
+    width: 300px;
+    margin: 11px 10px; }
+    .grid-sizer div,
+    .grid-item div {
+      display: block;
+      position: absolute;
+      width: 84%;
+      margin: auto;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 14px; }
+      .grid-sizer div p,
+      .grid-item div p {
+        text-align: center; }
+
+  .grid-item {
+    display: block;
+    height: 309px;
+    float: left;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px; }
+
+  .grid-item--width2 {
+    width: 620px; }
+
+  .input-activities {
+    content: '';
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    margin-bottom: 60px; }
+    .input-activities h3 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 22px;
+      margin-bottom: 33px;
+      margin-top: 86px;
+      margin-left: -3px; }
+    .input-activities p {
+      text-align: center;
+      color: #000;
+      font-family: "Roboto Light";
+      font-size: 18px;
+      margin-bottom: 40px;
+      margin-left: -3px; }
+    .input-activities .inpt-btn {
+      text-align: center;
+      display: inline-block;
+      width: 69%;
+      margin: 0 auto; }
+      .input-activities .inpt-btn .input-activities__input-search {
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -1px;
+        width: 240px;
+        height: 40px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        border: none;
+        border: 1px solid #CBCBCB;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        padding: 0 15px;
+        margin-bottom: 10px; }
+      .input-activities .inpt-btn .input-activities__find-btn {
+        display: inline-block;
+        padding: 11px 24px;
+        font-family: "Montserrat Bold";
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background-color: #FF4F51;
+        display: inline-block;
+        margin-bottom: 39px;
+        margin-left: 7px; }
+        .input-activities .inpt-btn .input-activities__find-btn a {
+          color: #fff;
+          font-weight: bold;
+          font-size: 14px; }
+
+  .footer {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border-top: 5px solid #FF4F51;
+    padding-top: 20px; }
+    .footer .wrapper-footer {
+      width: 1440px;
+      margin: auto; }
+    .footer h3 {
+      display: block;
+      float: left;
+      color: #FF4F51;
+      font-family: "Montserrat Bold";
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin-top: 15px;
+      margin-left: 248px;
+      margin-right: 52px; }
+    .footer .footer__company {
+      display: block;
+      float: left;
+      width: 156px;
+      margin-right: 4px; }
+      .footer .footer__company h4 {
+        text-align: center;
+        color: #000;
+        font-family: "Montserrat Bold";
+        font-size: 14px;
+        letter-spacing: 0px;
+        margin-bottom: 1px;
+        margin-top: 15px;
+        margin-left: 0px; }
+      .footer .footer__company .bottom__menu {
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 12px; }
+      .footer .footer__company .bottom__menu .menu__item {
+        display: block;
+        margin-left: 31px;
+        margin-top: 5px;
+        padding: 0; }
+      .footer .footer__company .bottom__menu .menu__link {
+        padding: 0 0; }
+      .footer .footer__company .bottom__menu .menu__link {
+        color: #000;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        text-decoration: none; }
+      .footer .footer__company .bottom__menu .menu__link:hover {
+        border-bottom: 2px solid #FF4F51; }
+
+  .footer__partners {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 61px;
+    margin-left: 43px;
+    margin-right: 41px; }
+    .footer__partners h4 {
+      text-align: center;
+      color: #000;
+      font-family: "Montserrat Bold";
+      font-size: 14px;
+      letter-spacing: 0px;
+      margin-bottom: 1px;
+      margin-top: 15px; }
+
+  .logo {
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    margin-left: 324px; }
+    .logo p {
+      width: 91px;
+      text-align: center;
+      color: #E3E3E3;
+      font-family: "Montserrat Bold";
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      margin-left: 31px;
+      margin-top: 14px; }
+    .logo img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 18px; } }
+
+/*# sourceMappingURL=main.css.map */
