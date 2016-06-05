@@ -81,7 +81,7 @@ function slider(idSlider){
 // ajax 
 $.ajax({
         type: 'GET',
-        url:'http://api.pixplorer.co.uk/image?word=' + 'hawaii' + '&amount=7&size=300',
+        url:"https://pixabay.com/api/?key=2654122-2e7cfe65e4216a71a55f9c97a&image_type=photo"+q+"&callback=?",
 
         dataType: 'json',
         success: function(data){
