@@ -1,0 +1,34 @@
+.slide__content {
+  background: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#99000000);
+  zoom: 1; }
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  .partner-profile {
+    width: 234px; }
+  .idea--width-2x {
+    width: 64%; } }
+
+@media screen and (min-width: 960px) {
+  .partner-profile {
+    width: 200px;
+    display: inline-table; }
+  .idea--width-2x {
+    width: 63%; } }
+
+@media screen and (min-width: 768px) {
+  .slide__step {
+    margin-top: 200px; }
+  .search-partners__input,
+  .search-partners__search-button {
+    display: inline-block; } }
+
+.bx-wrapper .bx-prev {
+  left: 22px;
+  /*background: url(images/controls.png) no-repeat 0 -32px;*/
+  background: url(../img/arrow-left.png) no-repeat; }
+
+.bx-wrapper .bx-next {
+  right: 3px;
+  /*background: url(images/controls.png) no-repeat -43px -32px;*/
+  background: url(../img/arrow-right.png) no-repeat; }
