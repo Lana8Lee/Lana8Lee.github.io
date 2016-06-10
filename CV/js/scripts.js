@@ -336,7 +336,7 @@
 //	});
     
     $("#ajax-contact-form").submit(function(e) {
-    	e.preventDefault();
+        e.preventDefault;
         $('.loading').show();
 		$.ajax({
 			type: "GET",
@@ -345,8 +345,9 @@
 		}).done(function() {
             $('.loading').hide();
 			alert("Thank You!");
+			
 		});
-		// return false;
+//		return false;
 	});
     
 	
