@@ -335,19 +335,19 @@
 //		})
 //	});
     
-    $("#ajax-contact-form").submit(function(e) {
-        e.preventDefault;
+    $("#ajax-contact-form").submit(function() {
+        
         $('.loading').show();
 		$.ajax({
 			type: "GET",
 			url: "sendmail.php",
-			data: $("#callback").serialize()
+			data: $("#ajax-contact-form").serialize()
 		}).done(function() {
             $('.loading').hide();
-			alert("Thank You!");
-			
+//			alert("Thank You!");
+//			
 		});
-//		return false;
+		return false;
 	});
     
 	
