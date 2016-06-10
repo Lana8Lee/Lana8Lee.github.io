@@ -335,7 +335,8 @@
 //		})
 //	});
     
-    $("#ajax-contact-form").submit(function() {
+    $("#ajax-contact-form").submit(function(e) {
+    	e.preventDefault();
         $('.loading').show();
 		$.ajax({
 			type: "GET",
@@ -343,12 +344,9 @@
 			data: $("#callback").serialize()
 		}).done(function() {
             $('.loading').hide();
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
+			alert("Thank You!");
 		});
-		return false;
+		// return false;
 	});
     
 	
