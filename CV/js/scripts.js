@@ -217,8 +217,8 @@
 			$('.overlay-container').append('<div class="popup-back load-lightbox" /><div class="close-btn"><span class="left"></span><span class="right"></span></div><div class="popup" /> ');
 
 			$.ajax({
-				url: "sendmail.php",
-				data: $(this).serialize,
+				url: " ",
+				data: {},
 				cache: false,
 				success: function(data){
 					// Change the url of the page to the one in the post
@@ -325,22 +325,24 @@
 	
 	// Send Email 
 	//*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*	
-	$('#ajax-contact-form').submit(function(e){
-		e.preventDefault();
-		$('.loading').show();
-		$.post('sendmail.php', $('.form').serialize(), function(data){
-			$('.results').html(data);
-		}).success(function(){
-			$('.loading').hide();
-		})
-	});
+//	$('').submit(function(e){
+//		e.preventDefault();
+//		$('.loading').show();
+//		$.post('sendmail.php', $('.form').serialize(), function(data){
+//			$('.results').html(data);
+//		}).success(function(){
+//			$('.loading').hide();
+//		})
+//	});
     
-    $("#callback").submit(function() {
+    $("#ajax-contact-form").submit(function() {
+        $('.loading').show();
 		$.ajax({
 			type: "GET",
-			url: "mail.php",
+			url: "sendmail.php",
 			data: $("#callback").serialize()
 		}).done(function() {
+            $('.loading').hide();
 			alert("Спасибо за заявку!");
 			setTimeout(function() {
 				$.fancybox.close();
