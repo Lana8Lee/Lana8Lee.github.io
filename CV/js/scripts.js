@@ -321,7 +321,7 @@
 		} else {
 			window.location = $(this).attr('href');
 		}
-	})
+	});
 	
 	// Send Email 
 	//*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*	
@@ -341,7 +341,9 @@
 		$.ajax({
 			type: "GET",
 			url: "sendmail.php",
-			data: $("#ajax-contact-form").serialize()
+			data: $(this).serialize(),
+            function(data){
+            $('.results').html(data)}
 		}).done(function() {
             $('.loading').hide();
 //			alert("Thank You!");
