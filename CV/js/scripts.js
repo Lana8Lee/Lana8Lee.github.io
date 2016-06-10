@@ -217,8 +217,8 @@
 			$('.overlay-container').append('<div class="popup-back load-lightbox" /><div class="close-btn"><span class="left"></span><span class="right"></span></div><div class="popup" /> ');
 
 			$.ajax({
-				url: poplink,
-				data: {},
+				url: "sendmail.php",
+				data: $(this).serialize,
 				cache: false,
 				success: function(data){
 					// Change the url of the page to the one in the post
@@ -325,7 +325,7 @@
 	
 	// Send Email 
 	//*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*	
-	$('form').submit(function(e){
+	$('#ajax-contact-form').submit(function(e){
 		e.preventDefault();
 		$('.loading').show();
 		$.post('sendmail.php', $('.form').serialize(), function(data){
@@ -333,7 +333,22 @@
 		}).success(function(){
 			$('.loading').hide();
 		})
-	})
+	});
+    
+    $("#callback").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#callback").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.fancybox.close();
+			}, 1000);
+		});
+		return false;
+	});
+    
 	
 	// Flexslider	
 	//*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*		
