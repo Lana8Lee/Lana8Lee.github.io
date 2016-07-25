@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Color Guessing Game</title>
+    </head>
+    
+    <body onload="do_game()">
+        
+        <script>
+            var target_color;
+            var target_index;
+            var guessed_color;
+            var guesses = 0;
+            var color = ["darkmagenta", "blue", "yellow", "hotpink", "darkorange", "red", "lime", "steelblue", "aquamarine", "green"];
+            var finished = false;
+            
+            function do_game()
+            {
+                color.sort();
+                var random_number = Math.random() * color.length;
+                target_index = Math.floor(random_number);
+                target_color = color[target_index];
+                alert("Hint: The target color is " + target_color);
+                
+                var text = "I am thinking of one of these colors:\n\n" + color.join(", ")
+                            + "\n\n What color am I thinking of?";
+                
+                while(!finished)
+                {
+                    guessed_color = prompt(text);
+                    guesses++;
+                    finished = check_guess();
+                }
+            }
+            
+            function check_guess()
+            {
+                return target_color == guessed_color;
+            }
+            
+        </script>
+        
+    </body>
+    
+</html>
