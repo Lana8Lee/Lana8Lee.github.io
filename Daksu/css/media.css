@@ -1,0 +1,170 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1096px) {
+    .header__menu {
+        width: 50%;
+        margin-left: 10%;
+    }
+    .header__menu .menu__left li {
+        width: 55px;
+    }
+    .registration .menu__right {
+        padding-right: 25px;
+    }
+    .show {
+        margin-left: 16%;
+    }
+    .plus {
+        top: -83%;
+    }
+    .search {
+        margin-left: 18%;
+    }
+    .main__nav {
+        margin-left: 15%;
+    }
+    .inner {
+        padding-left: 9%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .header__menu {
+        margin-left: 0%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .registration {
+        width: 50%;
+        border-left: none;
+    }
+    header__menu {
+        width: 50%;
+    }
+    .header__menu .menu__left li {
+        width: 50px;
+        padding: 2%;
+    }
+    .logo {
+        margin-left: 13%;
+    }
+    .plus {
+        top: -227px;
+        right: 38px;
+    }
+    .main__nav {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .show {
+        margin-left: 5%;
+    }
+    select {
+        margin: 6% 0 2% 22%;
+    }
+    .search {
+        margin: 7% 0 7% 24%;
+    }
+    .selects {
+        margin-left: 5.4%;
+    }
+}
+
+@media only screen and (max-width: 722px) {
+    .main__nav li {
+        float: none;
+    }
+    .fa-bars {
+        display: block;
+        margin-left: 13%;
+    }
+    .col-md-5 {
+        text-align: center;
+    }
+    .main__nav {
+        display: none;
+    }
+    .search {
+        margin-left: 31%;
+    }
+    .plus {
+        top: -129%;
+        right: 9%;
+        width: 55px;
+        height: 55px;
+    }
+    .inner {
+        padding-left: 37%;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    select {
+        margin-left: 71px;
+    }
+    .search {
+        margin: 7% 0 7% 23%;
+    }
+    .header__menu .menu__left li {
+        width: 43px;
+        padding: 0%;
+        margin-top: 11%;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    .main__nav {
+        display: block;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .submenu li:before {
+        margin-right: -1ex;
+    }
+    .inner {
+        padding-left: 3%
+    }
+}

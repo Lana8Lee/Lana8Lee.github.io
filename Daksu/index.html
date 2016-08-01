@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Daksu</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css">
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css"> </head>
+
+<body>
+    <div class="container-fluid">
+        <!-- start of HEADER-->
+        <header class="row header">
+            <div class="wrapper clearfix">
+                <div class="col-md-6 col-sm-3 col-xs-12"> <img src="img/logo.png" alt="logo" class="logo"> </div>
+                <div class="col-md-6 col-sm-9 col-xs-12 clearfix">
+                    <div class="header__menu clearfix">
+                        <ul class="menu__left">
+                            <li>
+                                <a href="#"> <img src="img/pulse-icon.png" alt="pulse" class="pulse"> </a>
+                            </li>
+                            <li>
+                                <a href=""> <img src="img/chat-icon.png" alt="chat" class="chat"> </a>
+                            </li>
+                            <li><a href="#" class="help">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="registration clearfix">
+                        <ul class="menu__right clearfix">
+                            <li>
+                                <a href="#" class="lang"><img src="img/2-layers.png" alt=""></a> <i class="fa fa-chevron-down" aria-hidden="true"></i> </li>
+                            <li> <a href="#" class="brand">Acme</a> <a href="#" class="user">David Ramirez</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--        end of HEADER         -->
+        <!--          start of NAVBAR       -->
+        <section class="row line">
+            <nav class="wrapper tac"> <i class="fa fa-bars" aria-hidden="true"></i>
+                <ul class="main__nav clearfix">
+                    <li><a href="#" class="active">Product Lists</a>
+                        <p class="hc active"></p>
+                    </li>
+                    <li><a href="#">Vendors</a>
+                        <p class="hc"></p>
+                    </li>
+                    <li><a href="#">Collections</a>
+                        <p class="hc"></p>
+                    </li>
+                    <li><a href="#">Inventory</a>
+                        <p class="hc"></p>
+                    </li>
+                    <li><a href="#">Chanels</a>
+                        <p class="hc"></p>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!--            end of NAVBAR       -->
+        <!--            Filter and Search    -->
+        <section class="row clearfix line pr">
+            <div class="col-md-3 col-sm-4 col-xs-11 selects">
+                <select name="suppliers">
+                    <option selected="selected">Supplier</option>
+                    <option value="">Supplier1</option>
+                    <option value="">Supplier2</option>
+                    <option value="">Supplier3</option>
+                    <option value="">Supplier4</option>
+                </select>
+                <select name="Filters">
+                    <option selected="selected">Filtred by</option>
+                    <option value="">Filter1</option>
+                    <option value="">Filter2</option>
+                    <option value="">Filter3</option>
+                    <option value="">Filter4</option>
+                </select>
+            </div>
+            <div class="col-md-5 col-sm-7 col-xs-12">
+                <p class="show">Showing <span>8</span> lists from <span>23</span> suppliers</p>
+            </div>
+            <div class="col-md-3 pr col-sm-4 col-xs-12">
+                <button class="plus"></button>
+                <input type="search" name="" placeholder=" " class="search" /> </div>
+        </section>
+        <!--            //Filter and Search    -->
+        <!--            ==Main CONTENT==             -->
+        <section class="row clearfix">
+            <div class="inner clearfix">
+                <div class="col-md-4 col-lg-1 col-sm-12 clearfix">
+                    <div class="col-md-12 col-lg-5 col-sm-6 col-xs-12">
+                        <ul class="dropdown__box">
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   3M Products
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/updated.png" alt="Updated" class="Update"><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Apple
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span> <i class="fa fa-file-o" aria-hidden="true"></i> <a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Colorescience
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+General Electric
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Lubriderm
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-5 col-sm-6 col-xs-12">
+                        <ul class="dropdown__box">
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   3M Products
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/updated.png" alt="Updated" class="Update"><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Apple
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span> <i class="fa fa-file-o" aria-hidden="true"></i> <a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Colorescience
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+General Electric
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Lubriderm
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col col-lg-2 clearfix col-sm-12">
+                    <div class="col-md-12 col-lg-3 clearfix col-sm-6 col-xs-12">
+                        <ul class="dropdown__box">
+                            <li class="dropdown__item">
+                                <!--                 <div class="structure"></div>--><img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Max Factor
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/updated.png" alt="Updated" class="Update"><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Maybelline New York </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Meishoku </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+nailLOOK</a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Natura Siberica</a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Nature's</a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-3 col-sm-6 col-xs-12">
+                        <ul class="dropdown__box">
+                            <li class="dropdown__item">
+                                <!--                 <div class="structure"></div>--><img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Ninelle
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   NoUBA
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Planter's 
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Poetea 
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Premium
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Puma
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+
+Revlon 
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 col-sm-12 clearfix">
+                    <div class="col-md-12 col-lg-3 col-sm-6 col-xs-12">
+                        <ul class="dropdown__box">
+                            <li class="dropdown__item">
+                                <!--                 <div class="structure"></div>--><img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   RTO / RTS</a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Sanmu</a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Santoro Londres </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Schachenmayr</a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Schaefer </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   SCHMETZ  </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+ScrapBerry  </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+
+Toyzy </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-3 col-sm-6 col-xs-12">
+                        <ul class="dropdown__box">
+                            <li class="dropdown__item">
+                                <!--                 <div class="structure"></div>--><img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+
+Tramontina
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Trimcraft 
+
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                  Trivol  
+
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Vaupel 
+
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+                   Vaupel y Heilenbeck
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Vervaco  
+
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Vintaj
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__item"> <img src="img/open-icon.png" class="iconToggle" alt="+"><a href="#">
+Wilton 
+               </a>
+                                <ul class="submenu">
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Water FilterSystem</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>1235 products</p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Cleaning Products</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Dishwasher Detergent</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Soap</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                    <li> <span class="drop__line"></span><i class="fa fa-file-o" aria-hidden="true"></i><a href="#">Sticky wall tabs</a><img src="img/arrow-sq.png" alt=">">
+                                        <p>6712 products </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+    <script src="https://code.jquery.com/jquery-2.1.3.js" integrity="sha256-goy7ystDD5xbXSf+kwL4eV6zOPJCEBD1FBiCElIm+U8=" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+</body>
+
+</html>
