@@ -27,7 +27,8 @@
 
 .header {
     background-color: #20232b;
-    padding-bottom: 2px;
+    height: 56px;
+//    padding-bottom: 2px;
     ul {
         width: 100%;
         height: auto;
@@ -65,11 +66,9 @@
 .registration {
     width: 32%;
     height: auto;
-    border-left: 1px solid #85868d;
+    border-left: 1px solid #40424a;
     float: right;
     .menu__right {
-        padding-left: 0;
-        padding-right: 38px;
         li {
             color: white;
             display: block;
@@ -162,7 +161,6 @@
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     background: #00eabd;
-    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     margin-top: 15px;
@@ -192,7 +190,7 @@ select {
     border-radius: 4px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url('../../img/arrow.png');
+    background-image: url('../img/arrow.png');
     background-size: 9px 6px;
     background-position: right center;
     background-origin: content-box;
@@ -225,9 +223,8 @@ select {
     box-sizing: border-box;
     margin-top: 9%;
     margin-left: 38%;
-    border-radius: 20px;
     outline: none;
-    background-image: url("../../img/icon-search.png");
+    background-image: url("../img/icon-search.png");
     background-size: 7%;
     background-position: left center;
     background-origin: content-box;
@@ -247,7 +244,7 @@ select {
     border: none;
     background-color: transparent;
     color: transparent;
-    background-image: url("../../img/plus.png");
+    background-image: url("../img/plus.png");
     background-size: cover;
     background-position: center;
     background-origin: content-box;
