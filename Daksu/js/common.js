@@ -9,6 +9,11 @@ if ($(this).children(".iconToggle").attr("src") == "img/open-icon.png")
 else
    $(this).children(".iconToggle").fadeIn(2000).attr("src", "img/open-icon.png");
      });
+    
+    //Profile__dropdown
+    $('.fa-chevron-down').on('click', function(){
+        $(this).siblings('.profile__dropdown').slideToggle();
+    });
 
 
 //  ===========  MENU

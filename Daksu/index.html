@@ -40,7 +40,14 @@
                     <div class="registration clearfix">
                         <ul class="menu__right clearfix">
                             <li>
-                                <a href="#" class="lang"><img src="img/2-layers.png" alt=""></a> <i class="fa fa-chevron-down" aria-hidden="true"></i> </li>
+                            <a href="#" class="profile">DR</a>
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i> 
+                            <ul class="profile__dropdown">
+                                <li><a href="#" class="profile bord_n">DR</a></li>
+                                <li><a href="#" class="profile bord_n">DR</a></li>
+                                <li><a href="#" class="profile bord_n">DR</a></li>
+                            </ul>
+                             </li>
                             <li> <a href="#" class="brand">Acme</a> <a href="#" class="user">David Ramirez</a> </li>
                         </ul>
                     </div>
@@ -72,7 +79,7 @@
         </section>
         <!--            end of NAVBAR       -->
         <!--            Filter and Search    -->
-        <section class="row clearfix line pr">
+        <section class="row clearfix title">
             <div class="col-md-3 col-sm-4 col-xs-11 selects">
                 <select name="suppliers">
                     <option selected="selected">Supplier</option>
@@ -93,7 +100,11 @@
                 <p class="show">Showing <span>8</span> lists from <span>23</span> suppliers</p>
             </div>
             <div class="col-md-3 pr col-sm-4 col-xs-12">
-                <button class="plus"></button>
+                <button class="plus">
+                    <svg class="plusIcon" viewbox="0 0 32 32">
+                        <polygon points="28,14 18,14 18,4 14,4 14,14 4,14 4,18 14,18 14,28 18,28 18,18 28,18"></polygon>
+                    </svg>
+                </button>
                 <input type="search" name="" placeholder=" " class="search" /> </div>
         </section>
         <!--            //Filter and Search    -->

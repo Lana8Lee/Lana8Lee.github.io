@@ -11,14 +11,18 @@
     .header__menu .menu__left li {
         width: 55px;
     }
-    .registration .menu__right {
-        padding-right: 25px;
+    .registration{
+        width: 39%;
     }
+    .registration .menu__right .profile__dropdown {
+    top: 6%;
+    right: 5.3%;
+}
     .show {
         margin-left: 16%;
     }
     .plus {
-        top: -83%;
+        top: -70%;
     }
     .search {
         margin-left: 18%;
@@ -55,12 +59,20 @@
         width: 50px;
         padding: 2%;
     }
+    .registration .menu__right .profile__dropdown {
+    right: 7.6%;
+        top: 5%;
+}
+    .title {
+	height: auto;
+}
     .logo {
         margin-left: 13%;
+        margin-top: 10%;
     }
     .plus {
-        top: -227px;
-        right: 38px;
+            top: -102%;
+    left: 141%;
     }
     .main__nav {
         width: 90%;
@@ -81,6 +93,13 @@
 }
 
 @media only screen and (max-width: 722px) {
+    .header{
+        height: auto;
+    }
+.registration .menu__right .profile__dropdown {
+    right: 9.2%;
+    top: 11%;
+}
     .main__nav li {
         float: none;
     }
@@ -96,6 +115,10 @@
     }
     .search {
         margin-left: 31%;
+    }
+    .logo {
+
+        margin-top: 3%;
     }
     .plus {
         top: -129%;
@@ -123,12 +146,24 @@
         padding: 0%;
         margin-top: 11%;
     }
+    .registration .menu__right .profile__dropdown {
+    right: 12.4%;
+    top: 10%;
+}
+    .plus{
+        width: 45px;
+    height: 46px;
+    }
 }
 
 
 /* Custom, iPhone Retina */
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 320px) {
+    .registration .menu__right .profile__dropdown {
+    right: 12.7%;
+}
+}
 
 
 /*==========  Mobile First Method  ==========*/
