@@ -79,16 +79,44 @@
   display: block;
   color: white;
 }
-.registration .menu__right .profile__dropdown {
+.registration .menu__right .menu__dropdown {
   display: none;
-  width: 84px;
   position: absolute;
-  top: 6%;
+  width: 160px;
+  top: 8%;
   right: 4.2%;
   z-index: 2;
+  text-align: left;
+  padding: 5px 0;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
-.registration .menu__right .profile__dropdown li {
+.registration .menu__right .menu__dropdown .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.registration .menu__right .menu__dropdown li {
   float: none;
+}
+.registration .menu__right .menu__dropdown li a {
+  display: block;
+  text-align: left;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #22293c;
+  clear: both;
+  font-family: Gothambook;
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+}
+.registration .menu__right .menu__dropdown li a:hover {
+  background-color: #f3f5f8;
 }
 
 .profile {
@@ -337,6 +365,48 @@ select {
 }
 .submenu li:hover i {
   color: #0092ff;
+}
+.submenu li .mode {
+  position: absolute;
+  left: 60%;
+  width: 160px;
+  z-index: 4;
+  text-align: left;
+  padding: 5px 0;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.submenu li .mode .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.submenu li .mode li {
+  margin: 0;
+}
+.submenu li .mode li:before {
+  content: " ";
+  margin: 0px;
+  color: transparent;
+}
+.submenu li .mode li a {
+  display: block;
+  text-align: left;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: #22293c;
+  clear: both;
+  font-family: Gothambook;
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+}
+.submenu li .mode li a:hover {
+  background-color: #f3f5f8;
 }
 
 .submenu li:before {

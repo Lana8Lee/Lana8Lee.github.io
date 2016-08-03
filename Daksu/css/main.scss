@@ -80,15 +80,45 @@
                 color: white;
             }
         }
-        .profile__dropdown {
+        .menu__dropdown {
             display: none;
-            width: 84px;
             position: absolute;
-            top: 6%;
+            width: 160px;
+            top: 8%;
             right: 4.2%;
             z-index: 2;
+            text-align: left;
+            padding: 5px 0;
+            background-color: #fff;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, .15);
+            border-radius: 4px;
+            -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            .divider {
+                height: 1px;
+                margin: 9px 0;
+                overflow: hidden;
+                background-color: #e5e5e5;
+            }
             li {
                 float: none;
+                a {
+                    display: block;
+                    text-align: left;
+                    padding: 3px 10px;
+                    font-size: 11px;
+                    color: #22293c;
+                    clear: both;
+                    font-family: Gothambook;
+                    font-weight: 400;
+                    line-height: 1.42857143;
+                    white-space: nowrap;
+                    &:hover {
+                        background-color: #f3f5f8;
+                    }
+                }
             }
         }
     }
@@ -342,6 +372,51 @@ select {
     &:hover i {
         color: #0092ff;
     }
+    .mode {
+        position: absolute;
+            left: 60%;
+        width: 160px;
+        z-index: 4;
+        text-align: left;
+        padding: 5px 0;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+                    .divider {
+                height: 1px;
+                margin: 9px 0;
+                overflow: hidden;
+                background-color: #e5e5e5;
+            }
+            li {
+                margin: 0;
+                &:before {
+    content: " ";
+    margin: 0px;
+    color: transparent;
+}
+                a {
+                    display: block;
+                    text-align: left;
+                    padding: 3px 10px;
+                    font-size: 11px;
+                    color: #22293c;
+                    clear: both;
+                    font-family: Gothambook;
+                    font-weight: 400;
+                    line-height: 1.42857143;
+                    white-space: nowrap;
+                    &:hover {
+                        background-color: #f3f5f8;
+                    }
+                
+    }
+        }
+}
 }
 
 .submenu li:before {

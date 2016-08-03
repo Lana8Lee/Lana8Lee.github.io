@@ -2,17 +2,19 @@ $(document).ready(function() {
     
     var $dropItem = $(".dropdown__item");
     
-            $dropItem.click(function(){
-$(this).children('.submenu').slideToggle();
-if ($(this).children(".iconToggle").attr("src") == "img/open-icon.png")
-   $(this).children(".iconToggle").fadeIn(2000).attr("src", "img/close.png");
+            $('.iconToggle').click(function(){
+$(this).siblings('.submenu').slideToggle();
+$('.menu__dropdown').hide();
+
+if ($(this).attr("src") == "img/open-icon.png")
+   $(this).fadeIn(2000).attr("src", "img/close.png");
 else
-   $(this).children(".iconToggle").fadeIn(2000).attr("src", "img/open-icon.png");
+   $(this).fadeIn(2000).attr("src", "img/open-icon.png");
      });
     
     //Profile__dropdown
-    $('.fa-chevron-down').on('click', function(){
-        $(this).siblings('.profile__dropdown').slideToggle();
+    $('.caret').on('click', function(){
+    $(this).siblings('.menu__dropdown').slideToggle();
     });
 
 
