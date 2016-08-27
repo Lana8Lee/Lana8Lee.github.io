@@ -42,7 +42,7 @@ width: 100%;
 height: 1030px; 
 background-image: url(../img/fon.png); 
 background-repeat:no-repeat; 
-background-size: 100%; 
+background-size: cover; 
 
 } 
 
