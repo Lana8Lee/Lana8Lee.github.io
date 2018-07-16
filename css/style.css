@@ -695,18 +695,21 @@ h5 {
 
 .contact {
     background-color: lightcyan;
-    padding-bottom: 95px
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact h2:before {
-    content: "";
+/*     content: "";
     position: absolute;
     bottom: 0px;
     right: 0px;
     border-right: solid 3px rgb(80, 77, 77);
     border-bottom: solid 3px rgb(80, 77, 77);
     width: 70px;
-    height: 60px
+    height: 60px */
 }
 
 .contact .col-md-6 {
